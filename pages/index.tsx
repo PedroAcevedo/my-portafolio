@@ -2,10 +2,12 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Header from '../components/Header/Header'
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
+      <Header />
       <Head>
         <title>Pedro Acevedo Portafolio</title>
       </Head>
@@ -47,7 +49,7 @@ const Home: NextPage = () => {
           rel="noopener noreferrer"
         >
           <span className={styles.logo}>
-            <Image src="/public/github-logo.png" alt="Github Logo" width={72} height={16} />
+            <Image src="/github-logo.png" alt="Github Logo" width={32} height={32} />
           </span>
         </a>
       </footer>
