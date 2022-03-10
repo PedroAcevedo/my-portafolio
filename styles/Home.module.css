@@ -108,6 +108,12 @@
   margin-left: 0.5rem;
 }
 
+.subsectionTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

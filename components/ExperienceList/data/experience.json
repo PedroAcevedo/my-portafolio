@@ -1,0 +1,21 @@
+{
+    "experience": [
+        {
+            "id": 0,
+            "role": "Research Assistant at Universidad del Norte",
+            "description": [
+                "Support on the design of the requirements and UX for the educational platform.",
+                "Development of interactive games for education such as quizzes, soup letter, crosswords, and connections. (HTML, CSS, JS).",
+                "Support on the Gamification component of the platform (React, Laravel).",
+                "Support on the writing of papers, scientific materials, and reports."
+            ],
+            "screenshoots": [
+                {
+                    "image": "/incities-01.png",
+                    "width": 1480,
+                    "height": 870
+                }
+            ]
+        }
+    ]
+}

@@ -1,13 +1,20 @@
+import React, { useRef } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header'
+import ExperienceList from '../components/ExperienceList/ExperienceList'
 
 const Home: NextPage = () => {
+
+  const aboutRef = useRef(null);
+  const expRef = useRef(null);
+  const contactRef = useRef(null);
+
   return (
     <div className={styles.container}>
-      <Header />
+      <Header aboutRef={aboutRef} experienceRef={expRef} contactRef={contactRef} />
       <Head>
         <title>Pedro Acevedo Portafolio</title>
       </Head>
@@ -40,6 +47,36 @@ const Home: NextPage = () => {
             <p>To see about my research interest.</p>
           </a>
         </div>
+      </main>
+
+      <main className={styles.main} ref={aboutRef}>
+
+        <h5 className={styles.subsectionTitle}>
+          About me
+        </h5>
+
+        <p>In construction...</p>
+
+      </main>
+
+      <main className={styles.main} ref={expRef}>
+
+        <h5 className={styles.subsectionTitle}>
+          Experience
+        </h5>
+
+        <ExperienceList />
+
+      </main>
+
+      <main className={styles.main} ref={contactRef}>
+
+        <h5 className={styles.subsectionTitle}>
+          Contact
+        </h5>
+
+        <p>In construction...</p>
+
       </main>
 
       <footer className={styles.footer}>
