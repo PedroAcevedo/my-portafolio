@@ -5,7 +5,7 @@ import JobDescriptionStyles from "./JobDescription.styles";
 const Bullet = styled.div`${JobDescriptionStyles.bullet}`;
 const ItemList = styled.ul`${JobDescriptionStyles.itemList}`;
 const Item = styled.li`${JobDescriptionStyles.item}`;
-const Label = styled.li`${JobDescriptionStyles.label}`;
+const Label = styled.p`${JobDescriptionStyles.label}`;
 const Title = styled.p`${JobDescriptionStyles.title}`;
 
 
@@ -16,10 +16,12 @@ const JobDescription = ({ role, description }) => {
             <ItemList>
                 {description.map((functions) =>
                 (<Item key={functions.length}>
-                    <Bullet>
-                        <Image src="/bullet.svg" alt="item bullet" width={15} height={15} />
-                    </Bullet>
-                    <Label>{functions}</Label>
+                    <Label>
+                        <Bullet>
+                            <Image src="/bullet.svg" alt="item bullet" width={15} height={15} />
+                        </Bullet>
+                        {functions}
+                    </Label>
                 </Item>)
                 )}
             </ItemList>
