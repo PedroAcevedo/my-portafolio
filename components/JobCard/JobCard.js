@@ -15,10 +15,10 @@ const JobCard = ({ job }) => {
         <Wrapper>
             <Row>
                 <Column>
-                    <Carousel showThumbs={false} showIndicators={false} showStatus={false} autoPlay>
+                    <Carousel showThumbs={false} showIndicators={true} showStatus={false} autoPlay infiniteLoop>
                         {
                             job.screenshoots.map((screenshoot) => (
-                                <div key={screenshoot.width}    >
+                                <div key={screenshoot.width}>
                                     <Image src={screenshoot.image} alt={job.role} width={screenshoot.width} height={screenshoot.height} layout="intrinsic" />
                                 </div>)
                             )

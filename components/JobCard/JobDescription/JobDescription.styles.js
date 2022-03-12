@@ -14,7 +14,7 @@ const JobDescriptionStyles = {
     `,
     item: css`
         display: flex;
-        margin: 10px 0px;
+        margin: 0px;
         padding-left: 20px;
     `,
     bullet: css`
@@ -26,7 +26,7 @@ const JobDescriptionStyles = {
         min-width: 10px;
     `,
     label: css`
-        line-height: 1.5;
+        padding: 0;
     `,
 };
 

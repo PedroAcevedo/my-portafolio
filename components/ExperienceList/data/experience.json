@@ -1,7 +1,7 @@
 {
     "experience": [
         {
-            "id": 0,
+            "id": 1,
             "role": "Research Assistant at Universidad del Norte",
             "description": [
                 "Support on the design of the requirements and UX for the educational platform.",
@@ -11,9 +11,217 @@
             ],
             "screenshoots": [
                 {
-                    "image": "/incities-01.png",
+                    "image": "/InCities/incities-01.png",
                     "width": 1480,
                     "height": 870
+                },
+                {
+                    "image": "/InCities/incities-02.jpg",
+                    "width": 1480,
+                    "height": 870
+                },
+                {
+                    "image": "/InCities/incities-03.png",
+                    "width": 1480,
+                    "height": 870
+                },
+                {
+                    "image": "/InCities/incities-04.png",
+                    "width": 1480,
+                    "height": 870
+                },
+                {
+                    "image": "/InCities/incities-05.png",
+                    "width": 1480,
+                    "height": 870
+                },
+                {
+                    "image": "/InCities/incities-06.png",
+                    "width": 1480,
+                    "height": 870
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "role": "Research Assistant at Universidad del Norte",
+            "description": [
+                "Design and development of an Augmented reality component (Flutter, Android, IOS).",
+                "Augmented reality based on markers to show images or videos."
+            ],
+            "screenshoots": [
+                {
+                    "image": "/inCitiesApp/AR-app01.jpg",
+                    "width": 186.5,
+                    "height": 404
+                },
+                {
+                    "image": "/inCitiesApp/AR-app02.jpg",
+                    "width": 186.5,
+                    "height": 404
+                },
+                {
+                    "image": "/inCitiesApp/AR-app03.jpg",
+                    "width": 186.5,
+                    "height": 404
+                },
+                {
+                    "image": "/inCitiesApp/AR-app04.jpg",
+                    "width": 186.5,
+                    "height": 404
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "role": "Software Developer at Universidad del Norte",
+            "description": [
+                "UI/UX design of the platform.",
+                "Development of a web game platform. (HTML, CSS, JS).",
+                "Backend development for game statistics and user management. (NodeJS).",
+                "PhaserJS library integration for game mechanism.",
+                "Features such as multiuser connections, game interactions, collisions, points, chats, character selection, timer, data collection.",
+                "Administrative platform for data visualization, including graphs and main statistics for studies (Communication between people). "
+            ],
+            "screenshoots": [
+                {
+                    "image": "/ParsDifference/game-pd-01.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-02.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-03.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-04.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-05.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-06.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-07.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-08.jpg",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-09.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-10.jpg",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-11.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-12.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-13.png",
+                    "width": 1000,
+                    "height": 501
+                },
+                {
+                    "image": "/ParsDifference/game-pd-14.png",
+                    "width": 1000,
+                    "height": 501
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "role": "Software Developer as Free Lancer",
+            "description": [
+                "Development of a CMS app platform (Flutter).",
+                "Connection with API.",
+                "Multiple navigation screens.",
+                "Features such as login, notifications, download files, quizzes, forms."
+            ],
+            "screenshoots": [
+                {
+                    "image": "/FreeLancer/clap-01.png",
+                    "width": 218.4,
+                    "height": 448.8
+                },
+                {
+                    "image": "/FreeLancer/clap-02.png",
+                    "width": 218.4,
+                    "height": 448.8
+                },
+                {
+                    "image": "/FreeLancer/clap-03.png",
+                    "width": 218.4,
+                    "height": 448.8
+                },
+                {
+                    "image": "/FreeLancer/clap-04.png",
+                    "width": 218.4,
+                    "height": 448.8
+                },
+                {
+                    "image": "/FreeLancer/clap-05.png",
+                    "width": 218.4,
+                    "height": 448.8
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "role": "Front-End Developer at Digital Bar",
+            "description": [
+                "Support of development of a web base platform (VueJS, GraphQL).",
+                "Front End design.",
+                "Web page router.",
+                "GraphQL integration."
+            ],
+            "screenshoots": [
+                {
+                    "image": "/Digital/digital-01.png",
+                    "width": 760,
+                    "height": 392.4
+                },
+                {
+                    "image": "/Digital/digital-02.png",
+                    "width": 760,
+                    "height": 392.4
+                },
+                {
+                    "image": "/Digital/digital-03.png",
+                    "width": 760,
+                    "height": 392.4
+                },
+                {
+                    "image": "/Digital/digital-04.png",
+                    "width": 760,
+                    "height": 392.4
                 }
             ]
         }
