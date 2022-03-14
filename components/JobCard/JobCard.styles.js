@@ -19,12 +19,23 @@ const JobCardStyles = {
     margin-left: -12px;
     margin-right: -12px;
     align-items: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      padding: 0px;
+      margin: 0px;
+   }
     `,
   col: css`
     flex: content;
     padding-left: 12px;
     padding-right: 12px;
     max-width: 50%;
+    @media screen and (max-width: 768px) {
+      max-width: 100%;
+      padding: 0px;
+      margin: 0px;
+   }
+
     `,
 };
 

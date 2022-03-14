@@ -35,19 +35,24 @@ const HeaderStyles = {
     padding: 0.75rem 1rem;
 
     &:hover ${className} {
-      background-color: #3C6E71;
+      background-color: #3E5C76;
     }
    `,
-  button: ({ className }) => css`
+  button: css`
     display: inline;
-    color: #E8EDDF;
+    color: #3E5C76;
     background-color: transparent;
-    border: 1px solid #E8EDDF;
+    border: 1px solid #3E5C76;
     border-radius: 12px;
     padding: 0.75rem 1rem;
     line-height: 1;
     text-decoration: none;
     margin-left: 15px;
+
+    &:hover{
+      color: #D2D4C8;
+      border-color: #D2D4C8;
+    }
   `,
   bars: css`
     display: none;

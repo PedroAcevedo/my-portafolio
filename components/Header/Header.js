@@ -29,9 +29,9 @@ const Header = ({ aboutRef, experienceRef, contactRef }) => {
                 <Option onClick={() => ScrollToSection(experienceRef)}> Experience </Option>
                 <Option onClick={() => ScrollToSection(contactRef)}> Contact </Option>
                 <Option className="nav-li">
-                    <Link href="https://drive.google.com/uc?export=download&id=12TZgyKvcNGWt-GgK_ArZ9itu2l_ibgWv" passHref>
+                    <a target="_blank" href="https://drive.google.com/file/d/12TZgyKvcNGWt-GgK_ArZ9itu2l_ibgWv/view?usp=sharing" rel="noreferrer">
                         <Button className="resume-btn"> Resume </Button>
-                    </Link>
+                    </a>
                 </Option>
             </Navigation>
         </Wrapper>

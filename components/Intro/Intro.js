@@ -11,8 +11,8 @@ const Intro = () => {
     return (
         <Wrapper>
             <LabelColor>Hi, my name is...</LabelColor>
-            <Title>Pedro Acevedo.</Title>
-            <Title alternative>I build software experience.</Title>
+            <Title>Pedro David Acevedo.</Title>
+            <Title alternative>I build software solutions.</Title>
             <Description>
                 I am a Ph.D. student at Purdue University. I consider
                 myself a careful person, able to appropriate
