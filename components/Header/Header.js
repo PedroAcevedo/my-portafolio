@@ -12,7 +12,6 @@ const Wrapper = styled.div`${HeaderStyles.wrapper}`;
 const Bars = styled(FaBars)`${HeaderStyles.bars}`;
 
 
-
 const Header = ({ aboutRef, experienceRef, contactRef }) => {
 
     const ScrollToSection = (ref) => {

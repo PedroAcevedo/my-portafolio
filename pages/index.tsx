@@ -5,6 +5,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header'
 import Intro from '../components/Intro/Intro'
+import About from '../components/About/About'
 import ExperienceList from '../components/ExperienceList/ExperienceList'
 
 const Home: NextPage = () => {
@@ -30,7 +31,7 @@ const Home: NextPage = () => {
           About me
         </h5>
 
-        <p>In construction...</p>
+        <About />
 
       </main>
 

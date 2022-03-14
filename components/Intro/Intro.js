@@ -17,8 +17,7 @@ const Intro = () => {
                 I am a Ph.D. student at Purdue University. I consider
                 myself a careful person, able to appropriate
                 knowledge quickly, with great adaptability to
-                different environments, and learn tools that the
-                market demands. Welcome to my webpage.
+                different environments. Welcome to my webpage.
             </Description>
         </Wrapper>
     );
