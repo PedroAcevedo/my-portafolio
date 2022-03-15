@@ -1,6 +1,5 @@
 import { FaBars } from 'react-icons/fa';
 import Image from "next/image";
-import Link from "next/link";
 import styled from "styled-components";
 import HeaderStyles from "./Header.styles";
 
@@ -29,9 +28,9 @@ const Header = ({ aboutRef, experienceRef, contactRef }) => {
                 <Option onClick={() => ScrollToSection(experienceRef)}> Experience </Option>
                 <Option onClick={() => ScrollToSection(contactRef)}> Contact </Option>
                 <Option className="nav-li">
-                    <a target="_blank" href="https://drive.google.com/file/d/12TZgyKvcNGWt-GgK_ArZ9itu2l_ibgWv/view?usp=sharing" rel="noreferrer">
-                        <Button className="resume-btn"> Resume </Button>
-                    </a>
+                    <Button target="_blank" href="https://drive.google.com/file/d/12TZgyKvcNGWt-GgK_ArZ9itu2l_ibgWv/view?usp=sharing" rel="noreferrer">
+                        Resume
+                    </Button>
                 </Option>
             </Navigation>
         </Wrapper>

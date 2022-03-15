@@ -7,15 +7,16 @@ const JobDescriptionStyles = {
         font-weight: bold;
     `,
     itemList: css`
+        list-style: none;
         margin: 0;
         padding: 0;
-        overflow: hidden;
-        list-style: none;
     `,
     item: css`
         display: flex;
         margin: 0px;
         padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 1.1rem;
     `,
     bullet: css`
         position: absolute;

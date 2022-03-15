@@ -5,6 +5,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header'
 import Intro from '../components/Intro/Intro'
+import GetInTouch from '../components/GetInTouch/GetInTouch'
 import About from '../components/About/About'
 import ExperienceList from '../components/ExperienceList/ExperienceList'
 
@@ -51,13 +52,13 @@ const Home: NextPage = () => {
           Contact
         </h5>
 
-        <p>In construction...</p>
+        <GetInTouch />
 
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://github.com/PedroAcevedo"
+          href="https://github.com/PedroAcevedo/my-portafolio"
           target="_blank"
           rel="noopener noreferrer"
         >
