@@ -8,6 +8,7 @@ import Intro from '../components/Intro/Intro'
 import GetInTouch from '../components/GetInTouch/GetInTouch'
 import About from '../components/About/About'
 import ExperienceList from '../components/ExperienceList/ExperienceList'
+import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 
 const Home: NextPage = () => {
 
@@ -55,6 +56,8 @@ const Home: NextPage = () => {
         <GetInTouch />
 
       </main>
+      
+      <BackToTopButton />
 
       <footer className={styles.footer}>
         <a
@@ -67,6 +70,8 @@ const Home: NextPage = () => {
           </span>
         </a>
       </footer>
+
+      
     </div>
   )
 }

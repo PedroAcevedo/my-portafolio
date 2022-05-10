@@ -13,7 +13,7 @@ const GetInTouch = () => {
             <Description>
                Currently I am looking for opportunities for Summer 2022. My inbox is open! Thanks for your interest.
             </Description>
-            <Button href="mailto:brittany.chiang@gmail.com" rel="noopener noreferrer" target="_blank"> Send an Email </Button>
+            <Button href="mailto:pedrodavidacevedo@live.com" rel="noopener noreferrer" target="_blank"> Send an Email </Button>
         </Wrapper>
     );
 }
