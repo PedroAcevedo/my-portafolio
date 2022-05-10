@@ -5,8 +5,8 @@
             "role": "Research Assistant at Purdue University",
             "description": [
                 "Development of Virtual Reality Experience (Unity).",
-                "3D envieroment design.",
-                "Support on the writing of papers, scientific materials, and reports."
+                "3D environment design.",
+                "Support for the writing of papers, scientific materials, and reports."
             ],
             "screenshoots": [
                 {
@@ -25,7 +25,7 @@
             "id": 1,
             "role": "Front-End Developer at Digital Bar",
             "description": [
-                "Support of development of a web base platform (VueJS, GraphQL).",
+                "Support for the development of a web-based platform (VueJS, GraphQL).",
                 "Front End design.",
                 "Web page router.",
                 "GraphQL integration."
@@ -57,10 +57,10 @@
             "id": 2,
             "role": "Software Developer as Freelancer",
             "description": [
-                "Development of a CMS app platform (Flutter).",
+                "The development of a CMS app platform (Flutter).",
                 "Connection with API.",
                 "Multiple navigation screens.",
-                "Features such as login, notifications, download files, quizzes, forms."
+                "Develop features such as login, notifications, download files, quizzes, and forms."
             ],
             "screenshoots": [
                 {
@@ -97,9 +97,9 @@
                 "UI/UX design of the platform.",
                 "Development of a web game platform. (HTML, CSS, JS).",
                 "Backend development for game statistics and user management. (NodeJS).",
-                "PhaserJS library integration for game mechanism.",
-                "Features such as multiuser connections, game interactions, collisions, points, chats, character selection, timer, data collection.",
-                "Administrative platform for data visualization, including graphs and main statistics for studies (Communication between people). "
+                "It was implemented with PhaserJS library integration for the game mechanism.",
+                "Features include multiuser connections, game interactions, collisions, points, chats, character selection, timer, and data collection.",
+                "An administrative platform for data visualization, including graphs and main statistics for studies (Communication between people)."
             ],
             "screenshoots": [
                 {
@@ -179,7 +179,7 @@
             "role": "Research Assistant at Universidad del Norte",
             "description": [
                 "Support on the design of the requirements and UX for the educational platform.",
-                "Development of interactive games for education such as quizzes, soup letter, crosswords, and connections. (HTML, CSS, JS).",
+                "Development of interactive games for education such as quizzes, soup letters, crosswords, and connections. (HTML, CSS, JS).",
                 "Support on the Gamification component of the platform (React, Laravel).",
                 "Support on the writing of papers, scientific materials, and reports."
             ],
