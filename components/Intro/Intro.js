@@ -1,5 +1,6 @@
 import IntroStyles from './Intro.styles';
 import styled from "styled-components";
+import Social from "./Social/Social";
 
 const Wrapper = styled.div`${IntroStyles.wrapper}`;
 const LabelColor = styled.p`${IntroStyles.labelColor}`;
@@ -9,6 +10,7 @@ const Description = styled.p`${IntroStyles.description}`;
 
 const Intro = () => {
     return (
+        <>
         <Wrapper>
             <LabelColor>Hi, my name is...</LabelColor>
             <Title>Pedro David Acevedo.</Title>
@@ -19,7 +21,9 @@ const Intro = () => {
                 knowledge quickly, with great adaptability to
                 different environments. Welcome to my webpage.
             </Description>
+        <Social></Social>
         </Wrapper>
+        </>
     );
 }
 
