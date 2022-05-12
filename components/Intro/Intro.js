@@ -21,8 +21,8 @@ const Intro = () => {
                 knowledge quickly, with great adaptability to
                 different environments. Welcome to my webpage.
             </Description>
-        <Social></Social>
         </Wrapper>
+        <Social></Social>
         </>
     );
 }
