@@ -11,7 +11,7 @@ const Wrapper = styled.div`${HeaderStyles.wrapper}`;
 const Bars = styled(FaBars)`${HeaderStyles.bars}`;
 
 
-const Header = ({ aboutRef, experienceRef, contactRef }) => {
+const Header = ({ aboutRef, projectsRef, experienceRef, contactRef }) => {
 
     const ScrollToSection = (ref) => {
         ref.current?.scrollIntoView({ behavior: 'smooth' })
@@ -25,6 +25,7 @@ const Header = ({ aboutRef, experienceRef, contactRef }) => {
             <Bars />
             <Navigation>
                 <Option onClick={() => ScrollToSection(aboutRef)}> About </Option>
+                <Option onClick={() => ScrollToSection(projectsRef)}> Personal Projects </Option>
                 <Option onClick={() => ScrollToSection(experienceRef)}> Experience </Option>
                 <Option onClick={() => ScrollToSection(contactRef)}> Contact </Option>
                 <Option className="nav-li">

@@ -14,15 +14,15 @@ const Intro = () => {
         <Wrapper>
             <LabelColor>Hi, my name is...</LabelColor>
             <Title>Pedro David Acevedo.</Title>
-            <Title alternative>I build software solutions.</Title>
+            <Title alternative>Software developer 💻</Title>
             <Description>
                 I am a Ph.D. student at Purdue University. I consider
                 myself a careful person, able to appropriate
                 knowledge quickly, with great adaptability to
                 different environments. Welcome to my webpage.
             </Description>
-        <Social></Social>
         </Wrapper>
+        <Social></Social>
         </>
     );
 }

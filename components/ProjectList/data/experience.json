@@ -1,0 +1,78 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "role": "OnTarget: FPS Game (HTML, JS, WebGL)",
+            "description": [
+                "CGT 520 final project",
+                "The game is developed using WebGL instead of OpenGL for web browser support.",
+                "Camera can be controlled by mouse and/or keyboard input.",
+                "Collision detection and reaction: Bullets has collisions and has sound when collides with walls and enemies.",
+                "Texture use for the floor, walls, enemies, character guns (can be change by keyboard), and bullet. ",
+                "Sounds used as background can me play and multiple soundtracks were added. Sounds effects for the shoot of a gun, the bullet collision, and the enemy death. "
+            ],
+            "screenshoots": [
+                {
+                    "image": "https://media.giphy.com/media/X31HC7eZPDTfGTjyj9/giphy.gif",
+                    "width": 600,
+                    "height": 338
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "role": "Data Visualization (Python3, VTK)",
+            "description": [
+                "Scripts to represent data with the VTK library",
+                "Use barometric data from NASA Earth Observatory to represent Earth as a plane and sphere.",
+                "Techniques to visualize CT scan data (Tomography scans).",
+                "Visualization of (NOAA-PSL) dataset of air pressure level.",
+                "GUI include to manipulate interest parameters."
+            ],
+            "screenshoots": [
+                {
+                    "image": "https://media.giphy.com/media/7MuWPoYv4AMBHg6tUe/giphy.gif",
+                    "width": 600,
+                    "height": 338
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "role": "3D surface calculator (C++, OpenGL)",
+            "description": [
+                "CGT 521 group final project",
+                "Implementation of a 3D graphic calculator with the marching cubes algorithm.",
+                "Implementation of a 3D axis and positioned of the calculator (graph sphere, torus, genus, Quadratic cylinder, and Pillow tooth)",
+                "Implemented 5 different 3D surfaces functions. ",
+                "Apply a random texture over the generated surface.",
+                "Able to control the number of triangles (resolution) of the generated surface."
+            ],
+            "screenshoots": [
+                {
+                    "image": "https://media.giphy.com/media/yOvxGehD1p08ImbphK/giphy.gif",
+                    "width": 400,
+                    "height": 400
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "role": "Virtual Reality Social space (C#, Unity, XR toolkit)",
+            "description": [
+                "CGT 516 group final project.",
+                "XR player prefab instancing.",
+                "Photon Network connection and Voice room.",
+                "Dart Game interaction, such as grab and throw infinity darts.",
+                "Sound effects for indicated user coins."
+            ],
+            "screenshoots": [
+                {
+                    "image": "https://media.giphy.com/media/xtpwHP72xsyiJ38sKd/giphy.gif",
+                    "width": 600,
+                    "height": 338
+                }
+            ]
+        }
+    ]
+}

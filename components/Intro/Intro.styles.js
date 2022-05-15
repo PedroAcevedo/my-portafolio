@@ -6,7 +6,6 @@ const IntroStyles = {
         align-items: left;
         flex-direction: column;
         padding: 0 20%;
-        margin-bottom: 10%;
         @media screen and (max-width: 768px) {
             padding: 0;
         }
@@ -28,7 +27,7 @@ const IntroStyles = {
     `,
     description: css`
         font-size: 1.2em;
-        width: 50%;
+        width: 60%;
         @media screen and (max-width: 768px) {
             font-size: 1em; 
             min-width: 80%;

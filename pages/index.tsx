@@ -8,17 +8,19 @@ import Intro from '../components/Intro/Intro'
 import GetInTouch from '../components/GetInTouch/GetInTouch'
 import About from '../components/About/About'
 import ExperienceList from '../components/ExperienceList/ExperienceList'
+import ProjectList from '../components/ProjectList/ProjectList'
 import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 
 const Home: NextPage = () => {
 
   const aboutRef = useRef(null);
+  const proRef = useRef(null);
   const expRef = useRef(null);
   const contactRef = useRef(null);
 
   return (
     <div className={styles.container}>
-      <Header aboutRef={aboutRef} experienceRef={expRef} contactRef={contactRef} />
+      <Header aboutRef={aboutRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} />
       <Head>
         <title>Pedro Acevedo Portafolio</title>
       </Head>
@@ -34,6 +36,16 @@ const Home: NextPage = () => {
         </h5>
 
         <About />
+
+      </main>
+
+      <main className={styles.main} ref={proRef}>
+
+        <h5 className={styles.subsectionTitle}>
+          Personal Projects
+        </h5>
+
+        <ProjectList />
 
       </main>
 
@@ -56,7 +68,7 @@ const Home: NextPage = () => {
         <GetInTouch />
 
       </main>
-      
+
       <BackToTopButton />
 
       <footer className={styles.footer}>
@@ -71,7 +83,7 @@ const Home: NextPage = () => {
         </a>
       </footer>
 
-      
+
     </div>
   )
 }
