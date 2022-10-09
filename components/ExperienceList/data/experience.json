@@ -4,20 +4,51 @@
             "id": 0,
             "role": "Research Assistant at Purdue University",
             "description": [
-                "Development of Virtual Reality Experience (Unity).",
-                "3D environment design.",
+                "Development of Virtual Reality Experience with Unity and Oculus SDK.",
+                "Design of 3D environment and learning contents.",
                 "Support for the writing of papers, scientific materials, and reports."
             ],
             "screenshoots": [
                 {
                     "image": "/Purdue/vr-01.png",
-                    "width": 1480,
-                    "height": 870
+                    "width": 1368,
+                    "height": 655
                 },
                 {
                     "image": "/Purdue/vr-02.png",
-                    "width": 1480,
-                    "height": 870
+                    "width": 1368,
+                    "height": 655
+                },
+                {
+                    "image": "/Purdue/vr-03.png",
+                    "width": 1368,
+                    "height": 655
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "role": "Unity developer at AsedaSciences Inc",
+            "description": [
+                "Develop a Virtual Reality App on Unity Engine",
+                "Develop 3D visualization of large network data-set, related to bioinformatics",
+                "Integrated of the platform into the database environment."
+            ],
+            "screenshoots": [
+                {
+                    "image": "/AsedaSciences/aseda-01.gif",
+                    "width": 500,
+                    "height": 345
+                },
+                {
+                    "image": "/AsedaSciences/aseda-02.gif",
+                    "width": 500,
+                    "height": 345
+                },
+                {
+                    "image": "/AsedaSciences/aseda-03.gif",
+                    "width": 500,
+                    "height": 345
                 }
             ]
         },
@@ -26,9 +57,9 @@
             "role": "Front-End Developer at Digital Bar",
             "description": [
                 "Support for the development of a web-based platform (VueJS, GraphQL).",
-                "Front End design.",
-                "Web page router.",
-                "GraphQL integration."
+                "Design of the Front End webpage.",
+                "Implementation of Web page router.",
+                "Integration with GraphQL Database."
             ],
             "screenshoots": [
                 {
@@ -57,9 +88,9 @@
             "id": 2,
             "role": "Software Developer as Freelancer",
             "description": [
-                "The development of a CMS app platform (Flutter).",
+                "Development of a CMS app platform (Flutter).",
                 "Connection with API.",
-                "Multiple navigation screens.",
+                "Design of Multiple navigation screens.",
                 "Develop features such as login, notifications, download files, quizzes, and forms."
             ],
             "screenshoots": [
@@ -94,12 +125,10 @@
             "id": 3,
             "role": "Software Developer at Universidad del Norte",
             "description": [
-                "UI/UX design of the platform.",
-                "Development of a web game platform. (HTML, CSS, JS).",
-                "Backend development for game statistics and user management. (NodeJS).",
-                "It was implemented with PhaserJS library integration for the game mechanism.",
-                "Features include multiuser connections, game interactions, collisions, points, chats, character selection, timer, and data collection.",
-                "An administrative platform for data visualization, including graphs and main statistics for studies (Communication between people)."
+                "Development of a web game platform. (HTML, CSS, JS and Phaser framework).",
+                "Implementation of the Backend system for game statistics and user management (NodeJS).",
+                "Development of features such as multiuser connections, game interactions, collisions, points, chats, character selection, timer, and data collection.",
+                "Design of a administrative platform for data visualization, including graphs and main statistics for research (Communication between people)."
             ],
             "screenshoots": [
                 {
@@ -180,7 +209,7 @@
             "description": [
                 "Support on the design of the requirements and UX for the educational platform.",
                 "Development of interactive games for education such as quizzes, soup letters, crosswords, and connections. (HTML, CSS, JS).",
-                "Support on the Gamification component of the platform (React, Laravel).",
+                "Development of the Gamification component of the platform (React, Laravel).",
                 "Support on the writing of papers, scientific materials, and reports."
             ],
             "screenshoots": [
@@ -221,7 +250,7 @@
             "role": "Research Assistant at Universidad del Norte",
             "description": [
                 "Design and development of an Augmented reality component (Flutter, Android, IOS).",
-                "Augmented reality based on markers to show images or videos."
+                "Implementation of an Augmented reality based component over markers to show images or videos."
             ],
             "screenshoots": [
                 {

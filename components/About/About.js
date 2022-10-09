@@ -33,37 +33,35 @@ const About = () => {
                     </p>
                     <ul>
                         <li>
-                            JavaScript
-                        </li>
-                        <li>
                             Unity (C#)
                         </li>
                         <li>
-                            React
-                        </li>
-                        <li>
-                            GraphQL
+                            JavaScript
                         </li>
                         <li>
                             Python
                         </li>
                         <li>
-                            VueJS
+                            OpenGL
                         </li>
                         <li>
-                            OpenGL
+                            XR Interaction Toolkit
+                        </li>
+                        <li>
+                            React
                         </li>
                     </ul>
                 </Column>
                 <Column>
-                    <Profile>
+                    <Profile
+                        onMouseEnter={() => setPhotoColor(randonBackground())}
+                        background={photoColor}
+                    >
                         <Photo
-                            onMouseEnter={() => setPhotoColor(randonBackground())}
-                            src="/me.png"
-                            alt="Github Logo"
+                            src="/me.jpg"
+                            alt="Me"
                             width={336}
                             height={336}
-                            background={photoColor}
                         />
                     </Profile>
                 </Column>

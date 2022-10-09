@@ -34,19 +34,17 @@ const AboutStyles = {
         padding: 0;
     }
     `,
-    photo: ({ background }) => css`
+    photo: css`
         border-radius: 10px;
-        background-color: ${background};
-        &:hover {
-            background-color: ${background};
-        }
     `,
-    profile: css`
+    profile: ({ background }) => css`
         border: 1px solid #eaeaea;
         border-radius: 10px;
         padding: 5%;
         &:hover {
             margin: 5%;
+            border-color: ${background};
+
         }
     `,
 };
