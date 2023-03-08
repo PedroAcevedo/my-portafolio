@@ -5,6 +5,8 @@ const JobDescriptionStyles = {
         margin: 0 0 1rem 0;
         font-size: 1.5rem;
         font-weight: bold;
+        display: flex;
+        align-items: center;
     `,
     itemList: css`
         list-style: none;
@@ -28,6 +30,10 @@ const JobDescriptionStyles = {
     `,
     label: css`
         padding: 0;
+    `,
+    year: css`
+        font-size: 0.8rem;
+        padding: 0 20px;
     `,
 };
 

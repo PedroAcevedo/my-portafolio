@@ -21,7 +21,6 @@
             "id": 1,
             "role": "Infinity 2D Side Scroller: PCG (C#, Unity)",
             "description": [
-                "CGT 581 Assignment 2",
                 "The game is developed using Unity 2D.",
                 "The game level is generated through selected rules and constrains.",
                 "The chunks are placed ramdonly each time the player move around the level.",
@@ -39,7 +38,6 @@
             "id": 3,
             "role": "Virtual Reality Social space (C#, Unity, XR toolkit)",
             "description": [
-                "CGT 516 group final project.",
                 "XR player prefab instancing.",
                 "Photon Network connection and Voice room.",
                 "Dart Game interaction, such as grab and throw infinity darts.",
@@ -57,7 +55,6 @@
             "id": 0,
             "role": "OnTarget: FPS Game (HTML, JS, WebGL)",
             "description": [
-                "CGT 520 final project",
                 "The game is developed using WebGL instead of OpenGL for web browser support.",
                 "Camera can be controlled by mouse and/or keyboard input.",
                 "Collision detection and reaction: Bullets has collisions and has sound when collides with walls and enemies.",
@@ -76,7 +73,6 @@
             "id": 0,
             "role": "On Shoulders of Giants (Unreal Engine)",
             "description": [
-                "CGT 555 final group project",
                 "Blueprint programming.",
                 "Puzzles implementation and game level design.",
                 "Usage of Procedural content for platforms puzzles."

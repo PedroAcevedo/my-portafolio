@@ -13,7 +13,7 @@ const Intro = () => {
         <>
         <Wrapper>
             <LabelColor>Hi, my name is...</LabelColor>
-            <Title>Pedro David Acevedo.</Title>
+            <Title>Pedro Acevedo.</Title>
             <Title alternative>PhD student 💻</Title>
             <Description>
                 I am studying at Purdue University. I consider

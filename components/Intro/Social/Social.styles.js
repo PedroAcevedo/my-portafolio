@@ -10,37 +10,13 @@ const SocialStyles = {
     `,
   infiniteDiv: css`
     display: flex;
-    width: 200%;
-    animation: bannermove 20s linear infinite;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: nowrap;
 
     @media screen and (max-width: 768px) {
-      width: 200%;
+      width: 100%;
     }
-
-
-    @keyframes "bannermove" {
-      0% {
-        transform: translateX(0%);
-      }
-      100% {
-        transform: translateX(-50%);
-      }
-    }
-
-    @media screen and (max-width: 768px) {
-      animation: bannermobile 20s linear infinite;
-
-      @keyframes "bannermobile" {
-        0% {
-          transform: translateX(0%);
-        }
-        100% {
-          transform: translateX(-50%);
-        }
-      }
-    }
-
-    
    `,
   controlDiv: css`
    width: 100%;
@@ -67,6 +43,16 @@ const SocialStyles = {
     background: #3E5C76;
     color: #F0EBD8;
    }
+
+   &:hover{
+    background: #3E5C76;
+    color: #F0EBD8;
+    &:nth-child(2) {
+      background: #F0EBD8;
+      color: #3E5C76;
+     }
+   }
+
    @media screen and (max-width: 768px) {
     width: 100%;
    }

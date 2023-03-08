@@ -6,13 +6,14 @@ const Bullet = styled.div`${JobDescriptionStyles.bullet}`;
 const ItemList = styled.ul`${JobDescriptionStyles.itemList}`;
 const Item = styled.li`${JobDescriptionStyles.item}`;
 const Label = styled.div`${JobDescriptionStyles.label}`;
-const Title = styled.p`${JobDescriptionStyles.title}`;
+const Title = styled.div`${JobDescriptionStyles.title}`;
+const Year = styled.p`${JobDescriptionStyles.year}`;
 
 
-const JobDescription = ({ role, description }) => {
+const JobDescription = ({ role, year, description }) => {
     return (
         <>
-            <Title>{role}</Title>
+            <Title>{role}{ year?  <Year>{"(" + year + ")"}</Year> : <></> }</Title>
             <ItemList>
                 {description.map((functions) =>
                     (<Item key={functions.length}>
