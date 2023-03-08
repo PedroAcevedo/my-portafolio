@@ -1,6 +1,59 @@
 {
     "projects": [
         {
+            "id": 2,
+            "role": "Procedural Game Level Design to Trigger Spatial Exploration (C#, Unity)",
+            "description": [
+                "Group research project",
+                "Development through Unity and Unity assets resources.",
+                "Procedural content generation by instancing the game assets level.",
+                "Automatically synthesizing game levels in order to encourage designer-specified exploration goals."
+            ],
+            "screenshoots": [
+                {
+                    "image": "https://media.giphy.com/media/WkaS0QNcC61lKQCAPS/giphy.gif",
+                    "width": 600,
+                    "height": 338
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "role": "Infinity 2D Side Scroller: PCG (C#, Unity)",
+            "description": [
+                "CGT 581 Assignment 2",
+                "The game is developed using Unity 2D.",
+                "The game level is generated through selected rules and constrains.",
+                "The chunks are placed ramdonly each time the player move around the level.",
+                "The procedural content generation features are implemented to do an infinitely playable level with different difficulties"
+            ],
+            "screenshoots": [
+                {
+                    "image": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWM1YjA2NGQyNjVhMTk3MDkwZWQ0YjY1ZjFkMDZjZTRjMDc3ZTBhZSZjdD1n/KUjFk1Xpn5A0AiQCBr/giphy.gif",
+                    "width": 600,
+                    "height": 338
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "role": "Virtual Reality Social space (C#, Unity, XR toolkit)",
+            "description": [
+                "CGT 516 group final project.",
+                "XR player prefab instancing.",
+                "Photon Network connection and Voice room.",
+                "Dart Game interaction, such as grab and throw infinity darts.",
+                "Sound effects for indicated user coins."
+            ],
+            "screenshoots": [
+                {
+                    "image": "https://media.giphy.com/media/xtpwHP72xsyiJ38sKd/giphy.gif",
+                    "width": 600,
+                    "height": 338
+                }
+            ]
+        },
+        {
             "id": 0,
             "role": "OnTarget: FPS Game (HTML, JS, WebGL)",
             "description": [
@@ -20,55 +73,17 @@
             ]
         },
         {
-            "id": 1,
-            "role": "Data Visualization (Python3, VTK)",
+            "id": 0,
+            "role": "On Shoulders of Giants (Unreal Engine)",
             "description": [
-                "Scripts to represent data with the VTK library",
-                "Use barometric data from NASA Earth Observatory to represent Earth as a plane and sphere.",
-                "Techniques to visualize CT scan data (Tomography scans).",
-                "Visualization of (NOAA-PSL) dataset of air pressure level.",
-                "GUI include to manipulate interest parameters."
+                "CGT 555 final group project",
+                "Blueprint programming.",
+                "Puzzles implementation and game level design.",
+                "Usage of Procedural content for platforms puzzles."
             ],
             "screenshoots": [
                 {
-                    "image": "https://media.giphy.com/media/7MuWPoYv4AMBHg6tUe/giphy.gif",
-                    "width": 600,
-                    "height": 338
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "role": "3D surface calculator (C++, OpenGL)",
-            "description": [
-                "CGT 521 group final project",
-                "Implementation of a 3D graphic calculator with the marching cubes algorithm.",
-                "Implementation of a 3D axis and positioned of the calculator (graph sphere, torus, genus, Quadratic cylinder, and Pillow tooth)",
-                "Implemented 5 different 3D surfaces functions. ",
-                "Apply a random texture over the generated surface.",
-                "Able to control the number of triangles (resolution) of the generated surface."
-            ],
-            "screenshoots": [
-                {
-                    "image": "https://media.giphy.com/media/yOvxGehD1p08ImbphK/giphy.gif",
-                    "width": 400,
-                    "height": 400
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "role": "Virtual Reality Social space (C#, Unity, XR toolkit)",
-            "description": [
-                "CGT 516 group final project.",
-                "XR player prefab instancing.",
-                "Photon Network connection and Voice room.",
-                "Dart Game interaction, such as grab and throw infinity darts.",
-                "Sound effects for indicated user coins."
-            ],
-            "screenshoots": [
-                {
-                    "image": "https://media.giphy.com/media/xtpwHP72xsyiJ38sKd/giphy.gif",
+                    "image": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmZmMTY0NjI3MDBmMTJmOWI4MzhkYWQ3OTgwMGI5NzczNzA3MGNiNiZjdD1n/sHQ82RqTaau1KvKUeP/giphy.gif",
                     "width": 600,
                     "height": 338
                 }

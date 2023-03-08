@@ -22,33 +22,36 @@ const About = () => {
             <Row>
                 <Column>
                     <p>
-                        Hello! My name is Pedro, and I am a passionate software developer and researcher.
-                        My interest in software started in 2015 when I began my Computer Science degree,
-                        where I can improve my coding skills to point over problem-solving through software.
+                    Hello! My name is Pedro, and I am a passionate software developer and researcher.
+                    My interest in software started in 2015 when I began my Computer Science degree in Colombia. 
+                    I am enthusiastic about the software's potential to solve problems in real-life applications.
                     </p>
                     <p>
-                        Currently, I have the privilege of working at great companies and academic centers.
-                        As research, my interest is focused on Virtual Reality, Games, Human-computer interactions, and Wireless Sensor Networks.
-                        Here is a list of technologies and languages that I have been working with recently:
+                    I am currently privileged to work at great companies and academic centers. 
+                    My research interest is Virtual Reality, Games, Human-computer interaction, Procedural Content Generation, and Wireless Sensor Networks. 
+                    Here is a list of technologies and languages that I have been working with recently:
                     </p>
                     <ul>
                         <li>
                             Unity (C#)
                         </li>
                         <li>
-                            JavaScript
-                        </li>
-                        <li>
-                            Python
-                        </li>
-                        <li>
-                            OpenGL
-                        </li>
-                        <li>
                             XR Interaction Toolkit
                         </li>
                         <li>
-                            React
+                            Oculus SDK
+                        </li>
+                        <li>
+                            Python Scripting
+                        </li>
+                        <li>
+                            OpenGL (C++)
+                        </li>
+                        <li>
+                            MATLAB
+                        </li>
+                        <li>
+                            JavaScript
                         </li>
                     </ul>
                 </Column>

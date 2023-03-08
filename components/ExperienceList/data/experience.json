@@ -2,37 +2,47 @@
     "experience": [
         {
             "id": 0,
-            "role": "Research Assistant at Purdue University",
+            "role": "Research Assistant at Purdue University (2021-2023)",
             "description": [
-                "Development of Virtual Reality Experience with Unity and Oculus SDK.",
-                "Design of 3D environment and learning contents.",
-                "Support for the writing of papers, scientific materials, and reports."
+                "Develop of Virtual Reality Experience with Unity and Oculus SDK.",
+                "Design of 3D environment and learning content.",
+                "Creation of papers, scientific materials, and reports."
             ],
             "screenshoots": [
                 {
                     "image": "/Purdue/vr-01.png",
-                    "width": 1368,
-                    "height": 655
+                    "width": 1030,
+                    "height": 620
                 },
                 {
                     "image": "/Purdue/vr-02.png",
-                    "width": 1368,
-                    "height": 655
+                    "width": 1030,
+                    "height": 620
                 },
                 {
                     "image": "/Purdue/vr-03.png",
-                    "width": 1368,
-                    "height": 655
+                    "width": 1030,
+                    "height": 620
+                },
+                {
+                    "image": "/Purdue/vr-04.jpg",
+                    "width": 1030,
+                    "height": 620
+                },
+                {
+                    "image": "/Purdue/vr-05.png",
+                    "width": 1030,
+                    "height": 620
                 }
             ]
         },
         {
             "id": 6,
-            "role": "Unity developer at AsedaSciences Inc",
+            "role": "Unity developer at AsedaSciences Inc (Summer 2022)",
             "description": [
-                "Develop a Virtual Reality App on Unity Engine",
-                "Develop 3D visualization of large network data-set, related to bioinformatics",
-                "Integrated of the platform into the database environment."
+                "Develop of a Virtual Reality App on Unity and XR Interaction toolkit.",
+                "Develop of 3D visualization of large network bioinformatics dataset.",
+                "Integration of the platform into the database environment."
             ],
             "screenshoots": [
                 {
@@ -54,12 +64,11 @@
         },
         {
             "id": 1,
-            "role": "Front-End Developer at Digital Bar",
+            "role": "Front-End Developer at Digital Bar (2021)",
             "description": [
-                "Support for the development of a web-based platform (VueJS, GraphQL).",
+                "Develop of a web-based platform (VueJS, GraphQL).",
                 "Design of the Front End webpage.",
-                "Implementation of Web page router.",
-                "Integration with GraphQL Database."
+                "Develop of a GraphQL Database connection."
             ],
             "screenshoots": [
                 {
@@ -86,12 +95,12 @@
         },
         {
             "id": 2,
-            "role": "Software Developer as Freelancer",
+            "role": "Software Developer as Freelancer (2021)",
             "description": [
-                "Development of a CMS app platform (Flutter).",
-                "Connection with API.",
+                "Develop of a CMS app platform (Flutter).",
+                "Develop of an API connection.",
                 "Design of Multiple navigation screens.",
-                "Develop features such as login, notifications, download files, quizzes, and forms."
+                "Develop of multiple features such as login, notifications, download files, quizzes, and forms."
             ],
             "screenshoots": [
                 {
@@ -123,12 +132,11 @@
         },
         {
             "id": 3,
-            "role": "Software Developer at Universidad del Norte",
+            "role": "Software Developer at Universidad del Norte (2020)",
             "description": [
-                "Development of a web game platform. (HTML, CSS, JS and Phaser framework).",
-                "Implementation of the Backend system for game statistics and user management (NodeJS).",
-                "Development of features such as multiuser connections, game interactions, collisions, points, chats, character selection, timer, and data collection.",
-                "Design of a administrative platform for data visualization, including graphs and main statistics for research (Communication between people)."
+                "Develop of a web game platform. (HTML, CSS, JS, and Phaser framework).",
+                "Develop of a Backend system for game statistics and user management (NodeJS).",
+                "Develop of features such as multiuser, game interations, character selection, and data collection."
             ],
             "screenshoots": [
                 {
@@ -205,12 +213,11 @@
         },
         {
             "id": 4,
-            "role": "Research Assistant at Universidad del Norte",
+            "role": "Research Assistant at Universidad del Norte (2019-2020)",
             "description": [
-                "Support on the design of the requirements and UX for the educational platform.",
-                "Development of interactive games for education such as quizzes, soup letters, crosswords, and connections. (HTML, CSS, JS).",
-                "Development of the Gamification component of the platform (React, Laravel).",
-                "Support on the writing of papers, scientific materials, and reports."
+                "Develop of interactive educational games such as quizzes, soup letters, and crosswords. (HTML, CSS, JS).",
+                "Design and development of an Augmented reality component (Flutter, Android, IOS).",
+                "Design of the requirements UI and UX for the educational platform."
             ],
             "screenshoots": [
                 {
@@ -247,10 +254,10 @@
         },
         {
             "id": 5,
-            "role": "Research Assistant at Universidad del Norte",
+            "role": "Research Assistant at Universidad del Norte (2019-2020)",
             "description": [
                 "Design and development of an Augmented reality component (Flutter, Android, IOS).",
-                "Implementation of an Augmented reality based component over markers to show images or videos."
+                "Develop of a marker recognition component for augmented images and videos."
             ],
             "screenshoots": [
                 {
