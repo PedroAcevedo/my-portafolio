@@ -23,8 +23,8 @@ const About = () => {
                 <Column>
                     <p>
                     Hello! My name is Pedro, and I am a passionate software developer and researcher.
-                    My interest in software started in 2015 when I began my Computer Science degree in Colombia. 
-                    I am enthusiastic about the software's potential to solve problems in real-life applications.
+                    My interest in software started in 2015 when I began my Computer Science degree in Colombia.
+                    I am enthusiastic about the softwares potential to solve problems in real-life applications.
                     </p>
                     <p>
                     I am currently privileged to work at great companies and academic centers. 
