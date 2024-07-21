@@ -10,6 +10,7 @@ import About from '../components/About/About'
 import ExperienceList from '../components/ExperienceList/ExperienceList'
 import ProjectList from '../components/ProjectList/ProjectList'
 import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
+import PublicationList from '../components/PublicationList/PublicationList'
 
 const Home: NextPage = () => {
 
@@ -36,6 +37,16 @@ const Home: NextPage = () => {
         </h5>
 
         <About />
+
+      </main>
+
+      <main className={styles.main} ref={proRef}>
+
+        <h5 className={styles.subsectionTitle}>
+          Publications
+        </h5>
+
+        <PublicationList />
 
       </main>
 
