@@ -29,7 +29,7 @@ const About = () => {
                     Hey! My name is <strong>Pedro Acevedo</strong>. I am a Ph.D. candidate in the Department of Computer Graphics Technology at Purdue University. I work under the advice of Dr. Christos Mousas and am also a Unity developer at <Link href="https://www.ecshowcase.com/" target="_blank">Envision Center</Link>.
                     </p>
                     <p>
-                    I hold Master's and Bachelor's degrees in Software Engineering from Universidad del Norte, Colombia. My research interests include Virtual Reality, Games, Human-computer interaction, Procedural Content Generation, and Wireless Sensor Networks. In my Ph.D., I focus on designing and developing immersive learning experiences using VR technology. I am also interested in HCI, optimization, and games.
+                    I hold Master&apos;s and Bachelor&apos;s degrees in Software Engineering from Universidad del Norte, Colombia. My research interests include Virtual Reality, Games, Human-computer interaction, Procedural Content Generation, and Wireless Sensor Networks. In my Ph.D., I focus on designing and developing immersive learning experiences using VR technology. I am also interested in HCI, optimization, and games.
                     </p>
                     <p>
                     If you have any questions, please contact me at <Link href="mailto:pedrodavidacevedo@live.com" target="_blank">paceved@purdue.edu</Link>
