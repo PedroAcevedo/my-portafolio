@@ -10,11 +10,9 @@ const AboutStyles = {
     `,
     row: css`
     display: flex;
-    position: relative;
     height: auto;
     zoom: 1;
     align-items: center;
-    padding: 1.5rem;
     margin: 0px 20%;
     @media screen and (max-width: 768px) {
         flex-direction: column-reverse;
@@ -23,29 +21,39 @@ const AboutStyles = {
     }
     `,
     col: css`
-    flex: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-left: 12px;
     padding-right: 12px;
     min-width: 40%;
-    font-size: 1.2em;
+    font-size: 1.1em;
     @media screen and (max-width: 768px) {
         min-width: 80%;
         font-size: 1em;
         padding: 0;
     }
     `,
-    photo: css`
-        border-radius: 10px;
+    colLeft:css`
+      align-items: flex-start;
+      justify-content: left;
     `,
-    profile: ({ background }) => css`
+    photo: css`
+        object-fit: contain;
+    `,
+    profile: ({ background, size }) => css`
         border: 1px solid #eaeaea;
         border-radius: 10px;
+        width: ${size}px;
+        height: ${size}px;
         padding: 5%;
         &:hover {
-            margin: 5%;
             border-color: ${background};
 
         }
+    `,
+    link:css`
+        color: #3E5C76;
     `,
 };
 

@@ -14,88 +14,85 @@ import PublicationList from '../components/PublicationList/PublicationList'
 
 const Home: NextPage = () => {
 
-  const aboutRef = useRef(null);
+  const pubRef = useRef(null);
   const proRef = useRef(null);
   const expRef = useRef(null);
   const contactRef = useRef(null);
 
   return (
-    <div className={styles.container}>
-      <Header aboutRef={aboutRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} />
-      <Head>
-        <title>Pedro Acevedo Portafolio</title>
-      </Head>
+    <>
+      <Header pubRef={pubRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} />
+      <div className={styles.container}>
+        <Head>
+          <title>Pedro Acevedo Portafolio</title>
+        </Head>
 
-      <main className={styles.main}>
-        <Intro />
-      </main>
+        <main className={styles.main}>
 
-      <main className={styles.main} ref={aboutRef}>
+          <h5 className={styles.subsectionTitle}>
+            Pedro Acevedo | Ph.D. Candidate at Purdue University
+          </h5>
 
-        <h5 className={styles.subsectionTitle}>
-          About me
-        </h5>
+          <About />
+        </main>
 
-        <About />
+        <main className={styles.main} ref={pubRef}>
 
-      </main>
+          <h5 className={styles.subsectionTitle}>
+            Publications
+          </h5>
 
-      <main className={styles.main} ref={proRef}>
+          <PublicationList />
 
-        <h5 className={styles.subsectionTitle}>
-          Publications
-        </h5>
+        </main>
 
-        <PublicationList />
+        <main className={styles.main} ref={expRef}>
 
-      </main>
+          <h5 className={styles.subsectionTitle}>
+            Experience
+          </h5>
 
-      <main className={styles.main} ref={proRef}>
+          <ExperienceList />
 
-        <h5 className={styles.subsectionTitle}>
-          Personal Projects
-        </h5>
+        </main>
 
-        <ProjectList />
+        <main className={styles.main} ref={proRef}>
 
-      </main>
+          <h5 className={styles.subsectionTitle}>
+            Personal Projects
+          </h5>
 
-      <main className={styles.main} ref={expRef}>
+          <ProjectList />
 
-        <h5 className={styles.subsectionTitle}>
-          Experience
-        </h5>
+        </main>
 
-        <ExperienceList />
+        <main className={styles.main} ref={contactRef}>
 
-      </main>
+          <h5 className={styles.subsectionTitle}>
+            Contact
+          </h5>
 
-      <main className={styles.main} ref={contactRef}>
+          <GetInTouch />
 
-        <h5 className={styles.subsectionTitle}>
-          Contact
-        </h5>
+        </main>
 
-        <GetInTouch />
+        <BackToTopButton />
 
-      </main>
-
-      <BackToTopButton />
-
-      <footer className={styles.footer}>
-        <a
-          href="https://github.com/PedroAcevedo/my-portafolio"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className={styles.logo}>
-            <Image src="/github-logo.png" alt="Github Logo" width={32} height={32} />
-          </span>
-        </a>
-      </footer>
+        <footer className={styles.footer}>
+          <a
+            href="https://github.com/PedroAcevedo/my-portafolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className={styles.logo}>
+              <Image src="/github-logo.png" alt="Github Logo" width={32} height={32} />
+            </span>
+          </a>
+        </footer>
 
 
-    </div>
+      </div>
+    </>
   )
 }
 

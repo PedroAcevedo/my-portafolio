@@ -4,13 +4,15 @@ const HeaderStyles = {
   wrapper: css`
       display: flex;
       justify-content: space-between;
+      border-bottom: 4mm ridge rgba(62,92,118, .8);;
       width: 100%;
+      @media screen and (max-width: 768px) {
+        padding-top: 15%;
+      }
     `,
   logo: css`
       height: 1em;
       margin-left: 0.5rem;
-      padding-top: 5px;
-      margin: 0;
       cursor: pointer;
       @media screen and (max-width: 768px) {
         display: block;
@@ -63,7 +65,7 @@ const HeaderStyles = {
       top: 0;
       right: 0;
       transform: translate(-100%, 75%);
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       cursor: pointer;
     }
   `,

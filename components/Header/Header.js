@@ -11,7 +11,7 @@ const Wrapper = styled.div`${HeaderStyles.wrapper}`;
 const Bars = styled(FaBars)`${HeaderStyles.bars}`;
 
 
-const Header = ({ aboutRef, projectsRef, experienceRef, contactRef }) => {
+const Header = ({ pubRef, projectsRef, experienceRef, contactRef }) => {
 
     const ScrollToSection = (ref) => {
         ref.current?.scrollIntoView({ behavior: 'smooth' })
@@ -24,12 +24,12 @@ const Header = ({ aboutRef, projectsRef, experienceRef, contactRef }) => {
             </Logo>
             <Bars />
             <Navigation>
-                <Option onClick={() => ScrollToSection(aboutRef)}> About </Option>
+                <Option onClick={() => ScrollToSection(pubRef)}> Publications </Option>
                 <Option onClick={() => ScrollToSection(projectsRef)}> Personal Projects </Option>
                 <Option onClick={() => ScrollToSection(experienceRef)}> Experience </Option>
                 <Option onClick={() => ScrollToSection(contactRef)}> Contact </Option>
                 <Option className="nav-li">
-                    <Button target="_blank" href="https://drive.google.com/file/d/1OZf3YOZJEmv4_4NVuvC3V33fG4YEO0yN/view?usp=sharing" rel="noreferrer">
+                    <Button target="_blank" href="https://drive.google.com/file/d/1MKXesT8kStySRcjrvOq_-flfhWdNXbji/view?usp=sharing" rel="noreferrer">
                         Resume
                     </Button>
                 </Option>
