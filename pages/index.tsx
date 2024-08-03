@@ -14,6 +14,7 @@ import PublicationList from '../components/PublicationList/PublicationList'
 
 const Home: NextPage = () => {
 
+  const aboutRef = useRef(null);
   const pubRef = useRef(null);
   const proRef = useRef(null);
   const expRef = useRef(null);
@@ -21,13 +22,13 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Header pubRef={pubRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} />
+      <Header aboutRef={aboutRef} pubRef={pubRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} />
       <div className={styles.container}>
         <Head>
           <title>Pedro Acevedo Portafolio</title>
         </Head>
 
-        <main className={styles.main}>
+        <main className={styles.main} ref={aboutRef}>
 
           <h5 className={styles.subsectionTitle}>
             Pedro Acevedo | Ph.D. Candidate at Purdue University

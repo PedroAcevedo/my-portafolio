@@ -7,6 +7,10 @@ const AboutStyles = {
     text-align: left;
     color: inherit;
     text-decoration: none;
+    @media screen and (max-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     `,
     row: css`
     display: flex;
@@ -53,7 +57,7 @@ const AboutStyles = {
         }
     `,
     link:css`
-        color: #3E5C76;
+        color: #aed7fb;
     `,
 };
 

@@ -6,6 +6,12 @@ const HeaderStyles = {
       justify-content: space-between;
       border-bottom: 4mm ridge rgba(62,92,118, .8);;
       width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      background-color: #11151c;
+      
       @media screen and (max-width: 768px) {
         padding-top: 15%;
       }
@@ -42,9 +48,9 @@ const HeaderStyles = {
    `,
   button: css`
     display: inline;
-    color: #3E5C76;
+    color: #aed7fb;
     background-color: transparent;
-    border: 1px solid #3E5C76;
+    border: 1px solid #aed7fb;
     border-radius: 12px;
     padding: 0.75rem 1rem;
     line-height: 1;

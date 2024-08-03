@@ -24,7 +24,11 @@ const PublicationCardStyles = {
     flex: content;
     padding-left: 12px;
     padding-right: 12px;
-    max-width: 85%;
+    max-width: 80%;
+    @media screen and (max-width: 768px) {
+      max-width: 100%;
+      font-size: 0.8em;
+    }
     `,
   url: css`
    width:100%;
@@ -47,6 +51,9 @@ const PublicationCardStyles = {
     font-weight: bold;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 768px) {
+      font-size: 1rem;
+    }
   `,
   thumbnail: css`
     display: flex;
