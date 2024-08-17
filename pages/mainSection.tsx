@@ -11,7 +11,9 @@ const MainSection = ({ children, sectionId, onIntersecting }: {
         threshold: 0.20,
     })
 
-    onIntersecting(sectionId, isIntersecting);
+    useEffect(() => {
+        onIntersecting(sectionId, isIntersecting);
+     });
 
     return (
         <div key={sectionId} ref={ref}>
