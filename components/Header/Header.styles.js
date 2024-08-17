@@ -37,10 +37,14 @@ const HeaderStyles = {
         display: none;
       }
     `,
-  option: ({ className }) => css`
+  option: ({ className, isCurrent}) => css`
     display: inline;
     cursor: pointer;
     padding: 0.75rem 1rem;
+
+    ${isCurrent && `
+      background-color: #3E5C76;
+    `}
 
     &:hover ${className} {
       background-color: #3E5C76;

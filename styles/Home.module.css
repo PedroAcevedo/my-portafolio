@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 3%;
   scroll-margin: 5.5rem;
 
   @media screen and (max-width: 768px) {

@@ -22,9 +22,9 @@
             "id": 4,
             "title": "Embodied Immersive Virtual Reality to Enhance the Conceptual Understanding of Charged Particles: A Qualitative Study",
             "authors": "P. Acevedo, A. J. Magana, Y. Walsh, H. W. Pinto, B. Benes, C. Mousas",
-            "description": "Computers & Education: X Reality, Volume TBA, pp. TBA, 2024",
-            "pdf": "",
-            "doi": "",
+            "description": "Computers & Education: X Reality, Volume 5, p. 100075, 2024",
+            "pdf": "PDF/1-s2.0-S2949678024000254-main.pdf",
+            "doi": "https://doi.org/10.1016/j.cexr.2024.100075",
             "thumbnail": "/Publications/embodied-IVR.png"
         },
         {
@@ -32,7 +32,7 @@
             "title": "Optimizing Retroreflective Marker Set for Motion Capturing Props",
             "authors": "P. Acevedo, B. Rekabdar, C. Mousas",
             "description": "Computers & Graphics (Proc. of CAD/Graphics 2023), Vol. 115, pp. 181-190, 2023",
-            "pdf": "",
+            "pdf": "PDF/jour23-CAG-Markerset.pdf",
             "doi": "https://doi.org/10.1016/j.cag.2023.07.021",
             "thumbnail": "/Publications/marker-set.png"
         },
@@ -41,7 +41,7 @@
             "title": "Effects of Tactile Feedback on Conceptual Understanding of Electromagnetism in a Virtual Reality Experience",
             "authors": "P. Acevedo, A. Magana, C. Mousas, Y. Walsh, H. W. Pinto, B. Benes",
             "description": "IEEE International Symposium on Mixed and Augmented Reality (Adjunct), pp. 588-593, 2022",
-            "pdf": "",
+            "pdf": "PDF/conf22-IEEEISMAR-Adjunct-Electromagnetism.pdf",
             "doi": "https://doi.org/10.1109/ISMAR-Adjunct57072.2022.00122",
             "thumbnail": "/Publications/VR-pilot.png"
         },
@@ -50,7 +50,7 @@
             "title": "Procedural Game Level Design to Trigger Spatial Exploration",
             "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
             "description": "International Conference on the Foundations of Digital Games (PCG Workshop), pp. 1-11, 2022",
-            "pdf": "",
+            "pdf": "PDF/conf22-FDG-SpatialExploration.pdf",
             "doi": "https://doi.org/10.1145/3555858.3563272",
             "thumbnail": "/Publications/curiosity-paper.png"
         },
@@ -59,7 +59,7 @@
             "title": "Vitool-BC: Visualization tool based on Cooja simulator for WSN",
             "authors": "D. Jabba, P. Acevedo",
             "description": "Applied Sciences 11 (16), 7665, 2021",
-            "pdf": "",
+            "pdf": "PDF/applsci-11-07665.pdf",
             "doi": "https://doi.org/10.3390/app11167665",
             "thumbnail": "/Publications/ViTool.png"
         },
@@ -68,8 +68,8 @@
             "title": "WRF-RPL: Weighted random forward RPL for high traffic and energy demanding scenarios",
             "authors": "PD. Acevedo, D. Jabba, P. Sanmartín, S. Valle, ED. Nino-Ruiz",
             "description": "IEEE Access 9, 60163-60174, 2021",
-            "pdf": "",
-            "doi": "https://doi.org/10.1145/3555858.3563272",
+            "pdf": "PDF/WRF-RPL_Weighted_Random_Forward_RPL_for_High_Traffic_and_Energy_Demanding_Scenarios.pdf",
+            "doi": "https://doi.org/10.1109/ACCESS.2021.3074436",
             "thumbnail": "/Publications/WRF-RPL.png"
         },
         {
@@ -88,7 +88,7 @@
             "description": "Journal of Information Technology Education: Research, Vol. 19, pp.395-425, 2020",
             "pdf": "",
             "doi": "https://doi.org/10.28945/4601",
-            "thumbnail": "/Publications/NoImage.jpg"
+            "thumbnail": "/Publications/JITEResearch.jpg"
         }
     ]
 }

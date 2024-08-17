@@ -22,8 +22,8 @@ const PublicationCard = ({ publication }) => {
                         <Title>{publication.title}</Title>
                         <p>{publication.authors}</p>
                         <p>{publication.description}</p>
-                        {publication.pdf != "" && <URL href={publication.pdf}>PDF</URL>}
-                        {publication.doi != "" && <URL href={publication.doi}>DOI</URL>}
+                        {publication.pdf != "" && <URL href={publication.pdf} target="_blank">PDF</URL>}
+                        {publication.doi != "" && <URL href={publication.doi} target="_blank">DOI</URL>}
                 </Column>
             </Row>
         </Wrapper>
