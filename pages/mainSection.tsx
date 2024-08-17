@@ -1,5 +1,5 @@
 import React, { MutableRefObject, useEffect } from 'react';
-import { useIntersectionObserver } from './utils/IntersectionObserver';
+import { useIntersectionObserver } from '../utils/IntersectionObserver';
 
 const MainSection = ({ children, sectionId, onIntersecting }: {
     children: React.ReactNode;
