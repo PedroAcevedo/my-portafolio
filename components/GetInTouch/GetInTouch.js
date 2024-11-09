@@ -11,7 +11,7 @@ const GetInTouch = () => {
         <Wrapper>
             <Title>Get In Touch</Title>
             <Description>
-            Currently, I am looking for opportunities for Summer 2023. My inbox is open! Thanks for your interest.
+            Currently, I am looking for full-time position for 2025. My inbox is open! Thanks for your interest.
             </Description>
             <Button href="mailto:paceved@purdue.edu" rel="noopener noreferrer" target="_blank"> Send an Email </Button>
         </Wrapper>

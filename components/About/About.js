@@ -2,17 +2,21 @@ import Image from "next/image";
 import { useState } from "react";
 import styled from "styled-components";
 import AboutStyles from './About.styles';
+import Social from "../Intro/Social/Social";
+
 
 const Column = styled.div`${AboutStyles.col}`;
+const ColumnText = styled(Column)`${AboutStyles.colLeft}`;
 const Row = styled.div`${AboutStyles.row}`;
 const Wrapper = styled.div`${AboutStyles.wrapper}`;
 const Profile = styled.div`${AboutStyles.profile}`;
 const Photo = styled(Image)`${AboutStyles.photo}`;
+const Link = styled.a`${AboutStyles.link}`;
 
 const About = () => {
 
     const [photoColor, setPhotoColor] = useState("");
-
+    const profileSize = 250;
     const randonBackground = () => {
         return "#" + Math.floor(Math.random() * 16777215).toString(16);
     }
@@ -20,53 +24,31 @@ const About = () => {
     return (
         <Wrapper>
             <Row>
-                <Column>
+                <ColumnText>
                     <p>
-                    Hello! My name is Pedro, and I am a passionate software developer and researcher.
-                    My interest in software started in 2015 when I began my Computer Science degree in Colombia.
-                    I am enthusiastic about the softwares potential to solve problems in real-life applications.
+                    Hey! My name is <strong>Pedro Acevedo</strong>. I am a Ph.D. candidate in the Department of Computer Graphics Technology at Purdue University. I work under the advice of Dr. Christos Mousas and am also a Unity developer at <Link href="https://www.ecshowcase.com/" target="_blank">Envision Center</Link>.
                     </p>
                     <p>
-                    I am currently privileged to work at great companies and academic centers. 
-                    My research interest is Virtual Reality, Games, Human-computer interaction, Procedural Content Generation, and Wireless Sensor Networks. 
-                    Here is a list of technologies and languages that I have been working with recently:
+                    I hold Master&apos;s and Bachelor&apos;s degrees in Software Engineering from Universidad del Norte, Colombia. My research interests include Virtual Reality, Games, Human-computer interaction, Procedural Content Generation, and Wireless Sensor Networks. In my Ph.D., I focus on designing and developing immersive learning experiences using VR technology.
                     </p>
-                    <ul>
-                        <li>
-                            Unity (C#)
-                        </li>
-                        <li>
-                            XR Interaction Toolkit
-                        </li>
-                        <li>
-                            Oculus SDK
-                        </li>
-                        <li>
-                            Python Scripting
-                        </li>
-                        <li>
-                            OpenGL (C++)
-                        </li>
-                        <li>
-                            MATLAB
-                        </li>
-                        <li>
-                            JavaScript
-                        </li>
-                    </ul>
-                </Column>
+                    <p>
+                    If you have any questions, please contact me at <Link href="mailto:pedrodavidacevedo@live.com" target="_blank">paceved@purdue.edu</Link>
+                    </p>
+                </ColumnText>
                 <Column>
                     <Profile
                         onMouseEnter={() => setPhotoColor(randonBackground())}
                         background={photoColor}
+                        size={profileSize}
                     >
                         <Photo
                             src="/me.jpg"
                             alt="Me"
-                            width={336}
-                            height={336}
+                            width={profileSize}
+                            height={profileSize}
                         />
                     </Profile>
+                    <Social></Social>
                 </Column>
             </Row>
         </Wrapper>

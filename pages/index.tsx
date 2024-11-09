@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { MutableRefObject, useEffect, useRef, useState } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -10,81 +10,114 @@ import About from '../components/About/About'
 import ExperienceList from '../components/ExperienceList/ExperienceList'
 import ProjectList from '../components/ProjectList/ProjectList'
 import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
+import PublicationList from '../components/PublicationList/PublicationList'
+import MainSection from './mainSection';
 
 const Home: NextPage = () => {
 
   const aboutRef = useRef(null);
+  const pubRef = useRef(null);
   const proRef = useRef(null);
   const expRef = useRef(null);
   const contactRef = useRef(null);
 
+  const [CurrentRef, SetCurrentRef] = useState(0);
+  const [IsScrolling, SetIsScrolling] = useState(false);
+
+
+  useEffect(() => {
+    const onscroll = () => SetIsScrolling(true);;
+    window.addEventListener("scroll", onscroll);
+    return () => {
+      window.removeEventListener("scroll", onscroll);
+    };
+  }, []);
+
+  const ChangeCurrentRef = (current: number, visible: boolean) => {
+    if (visible && IsScrolling) {
+      SetCurrentRef(current);
+      console.log("The current is " + current);
+      SetIsScrolling(false);
+    }
+  };
+
   return (
-    <div className={styles.container}>
-      <Header aboutRef={aboutRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} />
-      <Head>
-        <title>Pedro Acevedo Portafolio</title>
-      </Head>
+    <>
+      <Header aboutRef={aboutRef} pubRef={pubRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} currentRef={CurrentRef} />
+      <div className={styles.container}>
+        <Head>
+          <title>Pedro Acevedo Portafolio</title>
+        </Head>
+        <MainSection key={0} sectionId={0} onIntersecting={ChangeCurrentRef}>
+          <main className={styles.main} ref={aboutRef}>
+            <h5 className={styles.subsectionTitle}>
+              Pedro Acevedo | Ph.D. Candidate at Purdue University
+            </h5>
+            <About />
+          </main>
+        </MainSection>
 
-      <main className={styles.main}>
-        <Intro />
-      </main>
+        <MainSection key={1} sectionId={1} onIntersecting={ChangeCurrentRef}>
+          <main className={styles.main} ref={pubRef}>
+            <h5 className={styles.subsectionTitle}>
+              Publications
+            </h5>
 
-      <main className={styles.main} ref={aboutRef}>
+            <PublicationList />
+          </main>
+        </MainSection>
 
-        <h5 className={styles.subsectionTitle}>
-          About me
-        </h5>
+        <MainSection key={2} sectionId={2} onIntersecting={ChangeCurrentRef}>
+          <main className={styles.main} ref={expRef}>
 
-        <About />
+            <h5 className={styles.subsectionTitle}>
+              Experience
+            </h5>
 
-      </main>
+            <ExperienceList />
+          </main>
+        </MainSection>
 
-      <main className={styles.main} ref={proRef}>
+        <MainSection key={3} sectionId={3} onIntersecting={ChangeCurrentRef}>
+          <main className={styles.main} ref={proRef}>
 
-        <h5 className={styles.subsectionTitle}>
-          Personal Projects
-        </h5>
+            <h5 className={styles.subsectionTitle}>
+              Personal Projects
+            </h5>
 
-        <ProjectList />
+            <ProjectList />
 
-      </main>
+          </main>
+        </MainSection>
 
-      <main className={styles.main} ref={expRef}>
+        <MainSection key={4} sectionId={4} onIntersecting={ChangeCurrentRef}>
+          <main className={styles.main} ref={contactRef}>
 
-        <h5 className={styles.subsectionTitle}>
-          Experience
-        </h5>
+            <h5 className={styles.subsectionTitle}>
+              Contact
+            </h5>
 
-        <ExperienceList />
+            <GetInTouch />
+          </main>
+        </MainSection>
 
-      </main>
+        <BackToTopButton />
 
-      <main className={styles.main} ref={contactRef}>
-
-        <h5 className={styles.subsectionTitle}>
-          Contact
-        </h5>
-
-        <GetInTouch />
-
-      </main>
-
-      <BackToTopButton />
-
-      <footer className={styles.footer}>
-        <a
-          href="https://github.com/PedroAcevedo/my-portafolio"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className={styles.logo}>
-            <Image src="/github-logo.png" alt="Github Logo" width={32} height={32} />
-          </span>
-        </a>
-      </footer>
+        <footer className={styles.footer}>
+          <a
+            href="https://github.com/PedroAcevedo/my-portafolio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className={styles.logo}>
+              <Image src="/github-logo.png" alt="Github Logo" width={32} height={32} />
+            </span>
+          </a>
+        </footer>
 
 
-    </div>
+      </div>
+    </>
   )
 }
 

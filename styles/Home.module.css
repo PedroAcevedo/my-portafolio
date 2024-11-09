@@ -1,15 +1,21 @@
 .container {
   padding: 0 2rem;
+  padding-top: 4%;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 3%;
+  scroll-margin: 5.5rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 20%;
+  }
+
 }
 
 .footer {
@@ -93,7 +99,6 @@
 }
 
 .card h2 {
-  margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 

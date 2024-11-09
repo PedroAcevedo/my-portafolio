@@ -12,32 +12,29 @@ const Link = styled.a`${SocialStyles.link}`;
 const Social = () => {
     return (
         <Wrapper>
-            <InfiniteDiv>
-                <ControlDiv>
-                    <SocialList>
-                        <Media>
-                            <Image src="/email-svgrepo-com.svg" alt="item bullet" width={15} height={15} />
-                            <Link href="mailto:pedrodavidacevedo@live.com" target="_blank">pedrodavidacevedo@live.com</Link>
-                        </Media>
-                        <Media>
-                            <Image src="/linkedin-svgrepo-com.svg" alt="item bullet" width={15} height={15} />
-                            <Link href="https://www.linkedin.com/in/pedroacevedo242497/" target="_blank">linkedin.com/in/pedroacevedo242497</Link>
-                        </Media>
-                    </SocialList>
-                </ControlDiv>
-                <ControlDiv>
-                    <SocialList>
-                        <Media>
-                            <Image src="/github-svgrepo-com.svg" alt="item bullet" width={15} height={15} />
-                            <Link href="https://github.com/PedroAcevedo" target="_blank">github.com/PedroAcevedo</Link>
-                        </Media>
-                        <Media>
-                            <Image src="/orcid-svgrepo-com.svg" alt="item bullet" width={15} height={15} />
-                            <Link href="https://orcid.org/0000-0003-0814-7675" target="_blank">orcid.org/0000-0003-0814-7675</Link>
-                        </Media>
-                    </SocialList>
-                </ControlDiv>
-            </InfiniteDiv>
+            <SocialList>
+                <Media>
+                    <Link href="mailto:pedrodavidacevedo@live.com" target="_blank"><Image src="/email-svgrepo-com.svg" alt="item bullet" width={15} height={15}/></Link>
+                </Media>
+                <Media>
+                    <Link href="https://www.linkedin.com/in/pedroacevedo242497/" target="_blank"><Image src="/linkedin-svgrepo-com.svg" alt="item bullet" width={15} height={15} /></Link>
+                </Media>
+                <Media>
+                    <Link href="https://github.com/PedroAcevedo" target="_blank"><Image src="/github-svgrepo-com.svg" alt="item bullet" width={15} height={15} /></Link>
+                </Media>
+                <Media>
+                    <Link href="https://orcid.org/0000-0003-0814-7675" target="_blank">
+                        <Image src="/orcid-svgrepo-com.svg" alt="item bullet" width={15} height={15} /></Link>
+                </Media>
+                <Media>
+                    <Link href="https://scholar.google.com/citations?user=vv1sb0IAAAAJ&hl" target="_blank">
+                        <Image src="/googlescholar-svgrepo-com.svg" alt="item bullet" width={15} height={15} /></Link>
+                </Media>
+                <Media>
+                    <Link href="https://www.scopus.com/authid/detail.uri?authorId=57224197715" target="_blank">
+                        <Image src="/scopus-svgrepo-com.svg" alt="item bullet" width={15} height={15} /></Link>
+                </Media>
+            </SocialList>
         </Wrapper>
     );
 }

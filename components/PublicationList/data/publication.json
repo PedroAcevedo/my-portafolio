@@ -1,0 +1,94 @@
+{
+    "publication": [
+        {
+            "id": 1,
+            "title": "The Effects of Immersion and Dimensionality in Virtual Reality Science Simulations: The Case of Charged Particles",
+            "authors": "P. Acevedo, M. Choi, A. J. Magana, B. Benes, C. Mousas",
+            "description": "IEEE International Symposium on Mixed and Augmented Reality, pp. TBA, 2024",
+            "pdf": "",
+            "doi": "",
+            "thumbnail": "/Publications/2Dvs3D.png"
+        },
+        {
+            "id": 3,
+            "title": "An Exploration of Game Level Design to Evoke Spatial Exploration: The Influence of a Secondary Task",
+            "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
+            "description": "ACM Annual Symposium on Computer-Human Interaction in Play (CHI Play) Companion Proceedings, pp. TBA, 2024",
+            "pdf": "",
+            "doi": "",
+            "thumbnail": "/Publications/curiosity-coins.png"
+        },
+        {
+            "id": 4,
+            "title": "Embodied Immersive Virtual Reality to Enhance the Conceptual Understanding of Charged Particles: A Qualitative Study",
+            "authors": "P. Acevedo, A. J. Magana, Y. Walsh, H. W. Pinto, B. Benes, C. Mousas",
+            "description": "Computers & Education: X Reality, Volume 5, p. 100075, 2024",
+            "pdf": "PDF/1-s2.0-S2949678024000254-main.pdf",
+            "doi": "https://doi.org/10.1016/j.cexr.2024.100075",
+            "thumbnail": "/Publications/embodied-IVR.png"
+        },
+        {
+            "id": 5,
+            "title": "Optimizing Retroreflective Marker Set for Motion Capturing Props",
+            "authors": "P. Acevedo, B. Rekabdar, C. Mousas",
+            "description": "Computers & Graphics (Proc. of CAD/Graphics 2023), Vol. 115, pp. 181-190, 2023",
+            "pdf": "PDF/jour23-CAG-Markerset.pdf",
+            "doi": "https://doi.org/10.1016/j.cag.2023.07.021",
+            "thumbnail": "/Publications/marker-set.png"
+        },
+        {
+            "id": 6,
+            "title": "Effects of Tactile Feedback on Conceptual Understanding of Electromagnetism in a Virtual Reality Experience",
+            "authors": "P. Acevedo, A. Magana, C. Mousas, Y. Walsh, H. W. Pinto, B. Benes",
+            "description": "IEEE International Symposium on Mixed and Augmented Reality (Adjunct), pp. 588-593, 2022",
+            "pdf": "PDF/conf22-IEEEISMAR-Adjunct-Electromagnetism.pdf",
+            "doi": "https://doi.org/10.1109/ISMAR-Adjunct57072.2022.00122",
+            "thumbnail": "/Publications/VR-pilot.png"
+        },
+        {
+            "id": 7,
+            "title": "Procedural Game Level Design to Trigger Spatial Exploration",
+            "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
+            "description": "International Conference on the Foundations of Digital Games (PCG Workshop), pp. 1-11, 2022",
+            "pdf": "PDF/conf22-FDG-SpatialExploration.pdf",
+            "doi": "https://doi.org/10.1145/3555858.3563272",
+            "thumbnail": "/Publications/curiosity-paper.png"
+        },
+        {
+            "id": 8,
+            "title": "Vitool-BC: Visualization tool based on Cooja simulator for WSN",
+            "authors": "D. Jabba, P. Acevedo",
+            "description": "Applied Sciences 11 (16), 7665, 2021",
+            "pdf": "PDF/applsci-11-07665.pdf",
+            "doi": "https://doi.org/10.3390/app11167665",
+            "thumbnail": "/Publications/ViTool.png"
+        },
+        {
+            "id": 9,
+            "title": "WRF-RPL: Weighted random forward RPL for high traffic and energy demanding scenarios",
+            "authors": "PD. Acevedo, D. Jabba, P. Sanmartín, S. Valle, ED. Nino-Ruiz",
+            "description": "IEEE Access 9, 60163-60174, 2021",
+            "pdf": "PDF/WRF-RPL_Weighted_Random_Forward_RPL_for_High_Traffic_and_Energy_Demanding_Scenarios.pdf",
+            "doi": "https://doi.org/10.1109/ACCESS.2021.3074436",
+            "thumbnail": "/Publications/WRF-RPL.png"
+        },
+        {
+            "id": 10,
+            "title": "Web Apps for Intercultural Competences and Sustainable Development: A Case Study in Higher Education",
+            "authors": "C. Ricardo-Barreto, J. Mizuno, D. Jabba, H. Llinás, A. Medina-Rivilla, C.A. Acevedo, P. Acevedo, J. Peña, C. Baloco, S. Villarreal",
+            "description": "Handbook of Research on Promoting Social Justice for Immigrants and Refugees Through Active Citizenship and Intercultural Education, 349-373, 2021",
+            "pdf": "https://www.irma-international.org/viewtitle/282321/?isxn=9781799872832",
+            "doi": "",
+            "thumbnail": "/Publications/InCities.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Trends in using ICT resources by professors in HEIs (higher education institutions)",
+            "authors": "C. Ricardo-Barreto, D. Jabba, H. Llinás, J. Peña, C.A. Acevedo, PD. Acevedo,  C. Baloco, S. Villarreal",
+            "description": "Journal of Information Technology Education: Research, Vol. 19, pp.395-425, 2020",
+            "pdf": "",
+            "doi": "https://doi.org/10.28945/4601",
+            "thumbnail": "/Publications/JITEResearch.jpg"
+        }
+    ]
+}
