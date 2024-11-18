@@ -1,21 +1,39 @@
 {
     "publication": [
         {
+            "id": 13,
+            "title": "A Systematic Review of Immersive Virtual Reality in STEM Education: Advantages and Disadvantages on Learning and User Experience",
+            "authors": "P. Acevedo, A. J. Magana, B. Benes, C. Mousas",
+            "description": "IEEE Access, Volume TBA, Article No. TBA, pp. TBA, 2024",
+            "pdf": "",
+            "doi": "https://ieeexplore.ieee.org/abstract/document/10741186",
+            "thumbnail": "/Publications/conceptual-framework.png"
+        },
+        {
+            "id": 12,
+            "title": "An Exploration of the Effects of in-VR Assessment Format on User Experience and Performance",
+            "authors": "P. Acevedo, A. L. Jimenez, A. J. Magana, B. Benes, C. Mousas",
+            "description": "International Conference on Artificial Reality and Telexistence & Eurographics Symposium on Virtual Environments, pp. TBA, 2024",
+            "pdf": "",
+            "doi": "",
+            "thumbnail": "/Publications/in-VR assessment.jpg"
+        },
+        {
             "id": 1,
             "title": "The Effects of Immersion and Dimensionality in Virtual Reality Science Simulations: The Case of Charged Particles",
             "authors": "P. Acevedo, M. Choi, A. J. Magana, B. Benes, C. Mousas",
             "description": "IEEE International Symposium on Mixed and Augmented Reality, pp. TBA, 2024",
-            "pdf": "",
+            "pdf": "PDF/conf24-IEEEISMAR-ElectromagnetismDimensionsImmersion.pdf",
             "doi": "",
             "thumbnail": "/Publications/2Dvs3D.png"
         },
         {
             "id": 3,
-            "title": "An Exploration of Game Level Design to Evoke Spatial Exploration: The Influence of a Secondary Task",
+            "title": "Game Level Design to Evoke Spatial Exploration: The Influence of a Secondary Task",
             "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
             "description": "ACM Annual Symposium on Computer-Human Interaction in Play (CHI Play) Companion Proceedings, pp. TBA, 2024",
-            "pdf": "",
-            "doi": "",
+            "pdf": "PDF/3665463.3678811.pdf",
+            "doi": "https://dl.acm.org/doi/abs/10.1145/3665463.3678811",
             "thumbnail": "/Publications/curiosity-coins.png"
         },
         {
