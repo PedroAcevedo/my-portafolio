@@ -12,6 +12,7 @@ import ProjectList from '../components/ProjectList/ProjectList'
 import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 import PublicationList from '../components/PublicationList/PublicationList'
 import MainSection from './mainSection';
+import Script from 'next/script';
 
 const Home: NextPage = () => {
 
@@ -44,6 +45,20 @@ const Home: NextPage = () => {
   return (
     <>
       <Header aboutRef={aboutRef} pubRef={pubRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} currentRef={CurrentRef} />
+
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-846J8ECS8R"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-846J8ECS8R');
+        `}
+      </Script>
+      
       <div className={styles.container}>
         <Head>
           <title>Pedro Acevedo Portafolio</title>
