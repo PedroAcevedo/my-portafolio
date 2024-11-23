@@ -1,5 +1,5 @@
 import { FaBars } from 'react-icons/fa';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Image from "next/image";
 import styled from "styled-components";
 import HeaderStyles from "./Header.styles";
