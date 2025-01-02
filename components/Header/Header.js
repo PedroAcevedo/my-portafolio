@@ -1,4 +1,5 @@
 import { FaBars } from 'react-icons/fa';
+import React, { useState } from 'react';
 import Image from "next/image";
 import styled from "styled-components";
 import HeaderStyles from "./Header.styles";
@@ -9,13 +10,25 @@ const Option = styled.li`${HeaderStyles.option}`;
 const Navigation = styled.ul`${HeaderStyles.navigation}`;
 const Wrapper = styled.div`${HeaderStyles.wrapper}`;
 const Bars = styled(FaBars)`${HeaderStyles.bars}`;
+const MobileMenu = styled.ul`${HeaderStyles.MobileMenu}`;
+const MobileOption = styled.li`${HeaderStyles.MobileOption}`;
 
 
 const Header = ({ aboutRef, pubRef, projectsRef, experienceRef, contactRef, currentRef}) => {
 
     const ScrollToSection = (ref) => {
+        if (isOpen) {
+            setIsOpen(false);
+        }
         ref.current?.scrollIntoView({ behavior: 'smooth' })
     }
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    //Handles the opening and closing of our nav
+    const handleClick = () => {
+        setIsOpen(!isOpen);
+    };
 
     const isCurrent = (option) => currentRef === option;
 
@@ -25,7 +38,7 @@ const Header = ({ aboutRef, pubRef, projectsRef, experienceRef, contactRef, curr
             <Logo>
                 <Image src="/PD.svg" alt="Github Logo" width={60} height={60} />
             </Logo>
-            <Bars />
+            <Bars onClick={() => handleClick()} isOpen={isOpen} />
             <Navigation>
                 <Option onClick={() => ScrollToSection(aboutRef)} isCurrent={isCurrent(0)}> About </Option>
                 <Option onClick={() => ScrollToSection(pubRef)} isCurrent={isCurrent(1)}> Publications </Option>
@@ -38,6 +51,22 @@ const Header = ({ aboutRef, pubRef, projectsRef, experienceRef, contactRef, curr
                     </Button>
                 </Option>
             </Navigation>
+            <MobileMenu isOpen={isOpen}>
+                <MobileOption onClick={() => ScrollToSection(aboutRef)} isCurrent={isCurrent(0)}>About</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(pubRef)} isCurrent={isCurrent(1)}>Publications</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(experienceRef)} isCurrent={isCurrent(2)}>Experience</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(projectsRef)} isCurrent={isCurrent(3)}>Personal Projects</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(contactRef)} isCurrent={isCurrent(4)}>Contact</MobileOption>
+                <MobileOption>
+                    <Button
+                        target="_blank"
+                        href="https://drive.google.com/file/d/1MKXesT8kStySRcjrvOq_-flfhWdNXbji/view?usp=sharing"
+                        rel="noreferrer"
+                    >
+                        Resume
+                    </Button>
+                </MobileOption>
+            </MobileMenu>
         </Wrapper>
     );
 }
