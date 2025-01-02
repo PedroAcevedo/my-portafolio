@@ -33,7 +33,7 @@ const Header = ({ aboutRef, pubRef, projectsRef, experienceRef, contactRef, curr
                 <Option onClick={() => ScrollToSection(projectsRef)} isCurrent={isCurrent(3)}> Personal Projects </Option>
                 <Option onClick={() => ScrollToSection(contactRef)} isCurrent={isCurrent(4)}> Contact </Option>
                 <Option className="nav-li">
-                    <Button target="_blank" href="https://drive.google.com/file/d/1MKXesT8kStySRcjrvOq_-flfhWdNXbji/view?usp=sharing" rel="noreferrer">
+                    <Button target="_blank" href="https://drive.google.com/file/d/1Ml695q_jysrDsan-RKkAJ4c4pXx_X-2O/view?usp=sharing" rel="noreferrer">
                         Resume
                     </Button>
                 </Option>

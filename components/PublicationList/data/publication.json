@@ -4,25 +4,25 @@
             "id": 13,
             "title": "A Systematic Review of Immersive Virtual Reality in STEM Education: Advantages and Disadvantages on Learning and User Experience",
             "authors": "P. Acevedo, A. J. Magana, B. Benes, C. Mousas",
-            "description": "IEEE Access, Volume TBA, Article No. TBA, pp. TBA, 2024",
-            "pdf": "",
-            "doi": "https://ieeexplore.ieee.org/abstract/document/10741186",
+            "description": "IEEE Access, Vol. 12, pp. 189359–189386 2024",
+            "pdf": "PDF/IEEE-Access-Systematic-Review-VR-STEM.pdf",
+            "doi": "https://doi.org/10.1109/ACCESS.2024.3489233",
             "thumbnail": "/Publications/conceptual-framework.png"
         },
         {
             "id": 12,
             "title": "An Exploration of the Effects of in-VR Assessment Format on User Experience and Performance",
             "authors": "P. Acevedo, A. L. Jimenez, A. J. Magana, B. Benes, C. Mousas",
-            "description": "International Conference on Artificial Reality and Telexistence & Eurographics Symposium on Virtual Environments, pp. TBA, 2024",
-            "pdf": "",
-            "doi": "",
+            "description": "International Conference on Artificial Reality and Telexistence & Eurographics Symposium on Virtual Environments, pp. 1-10, 2024",
+            "pdf": "PDF/conf24-EGVE-AssessmentFormat.pdf",
+            "doi": "https://doi.org/10.2312/egve.20241370",
             "thumbnail": "/Publications/in-VR assessment.jpg"
         },
         {
             "id": 1,
             "title": "The Effects of Immersion and Dimensionality in Virtual Reality Science Simulations: The Case of Charged Particles",
             "authors": "P. Acevedo, M. Choi, A. J. Magana, B. Benes, C. Mousas",
-            "description": "IEEE International Symposium on Mixed and Augmented Reality, pp. TBA, 2024",
+            "description": "IEEE International Symposium on Mixed and Augmented Reality, pp. 170-179, 2024",
             "pdf": "PDF/conf24-IEEEISMAR-ElectromagnetismDimensionsImmersion.pdf",
             "doi": "",
             "thumbnail": "/Publications/2Dvs3D.png"
@@ -31,7 +31,7 @@
             "id": 3,
             "title": "Game Level Design to Evoke Spatial Exploration: The Influence of a Secondary Task",
             "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
-            "description": "ACM Annual Symposium on Computer-Human Interaction in Play (CHI Play) Companion Proceedings, pp. TBA, 2024",
+            "description": "ACM Annual Symposium on Computer-Human Interaction in Play (CHI Play) Companion Proceedings, pp. 4–10, 2024",
             "pdf": "PDF/3665463.3678811.pdf",
             "doi": "https://dl.acm.org/doi/abs/10.1145/3665463.3678811",
             "thumbnail": "/Publications/curiosity-coins.png"
@@ -40,7 +40,7 @@
             "id": 4,
             "title": "Embodied Immersive Virtual Reality to Enhance the Conceptual Understanding of Charged Particles: A Qualitative Study",
             "authors": "P. Acevedo, A. J. Magana, Y. Walsh, H. W. Pinto, B. Benes, C. Mousas",
-            "description": "Computers & Education: X Reality, Volume 5, p. 100075, 2024",
+            "description": "Computers & Education: X Reality, Volume 5, pp. 100075, 2024",
             "pdf": "PDF/1-s2.0-S2949678024000254-main.pdf",
             "doi": "https://doi.org/10.1016/j.cexr.2024.100075",
             "thumbnail": "/Publications/embodied-IVR.png"
@@ -103,7 +103,7 @@
             "id": 11,
             "title": "Trends in using ICT resources by professors in HEIs (higher education institutions)",
             "authors": "C. Ricardo-Barreto, D. Jabba, H. Llinás, J. Peña, C.A. Acevedo, PD. Acevedo,  C. Baloco, S. Villarreal",
-            "description": "Journal of Information Technology Education: Research, Vol. 19, pp.395-425, 2020",
+            "description": "Journal of Information Technology Education: Research, Vol. 19, pp. 395-425, 2020",
             "pdf": "",
             "doi": "https://doi.org/10.28945/4601",
             "thumbnail": "/Publications/JITEResearch.jpg"
