@@ -58,16 +58,13 @@ const Home: NextPage = () => {
           gtag('config', 'G-846J8ECS8R');
         `}
       </Script>
-      
+
       <div className={styles.container}>
         <Head>
           <title>Pedro Acevedo Portafolio</title>
         </Head>
         <MainSection key={0} sectionId={0} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={aboutRef}>
-            <h5 className={styles.subsectionTitle}>
-              Pedro Acevedo | Ph.D. Candidate at Purdue University
-            </h5>
             <About />
           </main>
         </MainSection>
@@ -77,6 +74,8 @@ const Home: NextPage = () => {
             <h5 className={styles.subsectionTitle}>
               Publications
             </h5>
+
+            <hr className={styles.separationLine}></hr>
 
             <PublicationList />
           </main>
@@ -89,6 +88,8 @@ const Home: NextPage = () => {
               Experience
             </h5>
 
+            <hr className={styles.separationLine}></hr>
+
             <ExperienceList />
           </main>
         </MainSection>
@@ -99,6 +100,8 @@ const Home: NextPage = () => {
             <h5 className={styles.subsectionTitle}>
               Personal Projects
             </h5>
+
+            <hr className={styles.separationLine}></hr>
 
             <ProjectList />
 
@@ -112,6 +115,8 @@ const Home: NextPage = () => {
               Contact
             </h5>
 
+            <hr className={styles.separationLine}></hr>
+
             <GetInTouch />
           </main>
         </MainSection>
@@ -119,6 +124,7 @@ const Home: NextPage = () => {
         <BackToTopButton />
 
         <footer className={styles.footer}>
+          <hr className={styles.separationLine}></hr>
           <a
             href="https://github.com/PedroAcevedo/my-portafolio"
             target="_blank"

@@ -3,8 +3,8 @@ import { css } from 'styled-components';
 const SocialStyles = {
   wrapper: css`
     width: 100%;
+    margin-top: 10px;
     overflow: hidden;
-    margin: 5%;
     @media screen and (max-width: 768px) {
       width: 100%;
     }
@@ -15,7 +15,6 @@ const SocialStyles = {
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
-    justify-content: center;
     row-gap: 5px;
     column-gap: 5px;
     @media screen and (max-width: 768px) {
@@ -23,9 +22,9 @@ const SocialStyles = {
     }
    `,
   media: css`
-   width:30%;
+   width:10%;
    background: #F0EBD8;
-   padding: 2%;
+   padding: 1%;
    text-align: center;
    color: #3E5C76;
 

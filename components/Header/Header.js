@@ -36,7 +36,7 @@ const Header = ({ aboutRef, pubRef, projectsRef, experienceRef, contactRef, curr
     return (
         <Wrapper>
             <Logo>
-                <Image src="/PD.svg" alt="Github Logo" width={60} height={60} />
+                <h2>Pedro Acevedo</h2>
             </Logo>
             <Bars onClick={() => handleClick()} isOpen={isOpen} />
             <Navigation>

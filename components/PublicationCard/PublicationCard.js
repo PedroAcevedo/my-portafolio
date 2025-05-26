@@ -16,7 +16,7 @@ const PublicationCard = ({ publication }) => {
         <Wrapper>
             <Row>
                 <Thumbnail>
-                    <Image src={publication.thumbnail} alt={'img'} width={255} height={144} />
+                    <img src={publication.thumbnail} alt={'img'} width={255} height={144} />
                 </Thumbnail>
                 <Column>
                         <Title>{publication.title}</Title>

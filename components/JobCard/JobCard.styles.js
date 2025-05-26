@@ -2,7 +2,7 @@ import { css } from 'styled-components';
 
 const JobCardStyles = {
   wrapper: css`
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 1.5rem;
     text-align: left;
     color: inherit;

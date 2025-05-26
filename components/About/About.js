@@ -12,11 +12,14 @@ const Wrapper = styled.div`${AboutStyles.wrapper}`;
 const Profile = styled.div`${AboutStyles.profile}`;
 const Photo = styled(Image)`${AboutStyles.photo}`;
 const Link = styled.a`${AboutStyles.link}`;
+const Line = styled.hr`${AboutStyles.line}`;
+const PText = styled.p`${AboutStyles.textItem}`;
+const H1Text = styled.h1`${AboutStyles.textItem}`;
 
 const About = () => {
 
     const [photoColor, setPhotoColor] = useState("");
-    const profileSize = 250;
+    const profileSize = 200;
     const randonBackground = () => {
         return "#" + Math.floor(Math.random() * 16777215).toString(16);
     }
@@ -24,17 +27,6 @@ const About = () => {
     return (
         <Wrapper>
             <Row>
-                <ColumnText>
-                    <p>
-                    Hey! My name is <strong>Pedro Acevedo</strong>. I am a Ph.D. candidate in the Department of Computer Graphics Technology at Purdue University. I work under the advice of Dr. Christos Mousas and am also a Unity developer at <Link href="https://www.ecshowcase.com/" target="_blank">Envision Center</Link>.
-                    </p>
-                    <p>
-                    I hold Master&apos;s and Bachelor&apos;s degrees in Software Engineering from Universidad del Norte, Colombia. My research interests include Virtual Reality, Games, Human-computer interaction, Procedural Content Generation, and Wireless Sensor Networks. In my Ph.D., I focus on designing and developing immersive learning experiences using VR technology.
-                    </p>
-                    <p>
-                    If you have any questions, please contact me at <Link href="mailto:pedrodavidacevedo@live.com" target="_blank">paceved@purdue.edu</Link>
-                    </p>
-                </ColumnText>
                 <Column>
                     <Profile
                         onMouseEnter={() => setPhotoColor(randonBackground())}
@@ -48,8 +40,23 @@ const About = () => {
                             height={profileSize}
                         />
                     </Profile>
-                    <Social></Social>
                 </Column>
+                <ColumnText>
+                    <H1Text>
+                        Pedro Acevedo
+                    </H1Text>
+                    <PText>
+                        Assistant Professor, <Link href="https://uncw.edu/" target="_blank">University of North Carolina Wilmington (UNCW)</Link>, 2025-current
+                    </PText>
+                    <PText>
+                        Ph.D in Technology, <Link href="https://www.purdue.edu/" target="_blank">Purdue University</Link>, 2021-2025
+                    </PText>
+                    <Line></Line>
+                    <PText>
+                        I am currently an Assistant Professor of Computer Science at the University of North Carolina Wilmington (UNCW). My research interests include Virtual Reality (VR), Educational Technology, Human-Computer Interaction (HCI), Games, Procedural Content Generation, and AI-driven Virtual Agents. During my Ph.D. in Computer Graphics Technology at Purdue University, I worked as a Unity Developer at the <Link href="https://www.ecshowcase.com/" target="_blank">Envision Center</Link> (2023–2025), where I developed educational interactive experiences for both desktop and VR platforms. Prior to that, I spent two years as a Research Assistant under the supervision of Professor Christos Mousas. I hold a Master’s and a Bachelor’s degree in Software Engineering from Universidad del Norte in Colombia.
+                    </PText>
+                    <Social></Social>
+                </ColumnText>
             </Row>
         </Wrapper>
     );

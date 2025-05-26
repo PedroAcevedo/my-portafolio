@@ -3,8 +3,9 @@ import { css } from 'styled-components';
 const HeaderStyles = {
   wrapper: css`
       display: flex;
-      justify-content: space-between;
-      border-bottom: 4mm ridge rgba(62,92,118, .8);;
+      justify-content: space-evenly;
+      align-items: center;
+      border-bottom: 4mm ridge rgba(62,92,118, .8);
       width: 100%;
       position: fixed;
       top: 0;
@@ -17,20 +18,20 @@ const HeaderStyles = {
       }
     `,
   logo: css`
-      height: 1em;
-      margin-left: 0.5rem;
       cursor: pointer;
+      margin-right: 7%;
       @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(50%, -10%);
+        margin: 0;
+        margin-left: 20px;
       }
     `,
   navigation: css`
       margin: 0;
-      padding: 20px;  
+      padding: 20px;
       overflow: hidden;
       list-style: none;
       @media screen and (max-width: 768px) {

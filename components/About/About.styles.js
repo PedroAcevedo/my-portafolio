@@ -2,8 +2,6 @@ import { css } from 'styled-components';
 
 const AboutStyles = {
     wrapper: css`
-    margin: 1rem;
-    padding: 1.5rem;
     text-align: left;
     color: inherit;
     text-decoration: none;
@@ -17,9 +15,8 @@ const AboutStyles = {
     height: auto;
     zoom: 1;
     align-items: center;
-    margin: 0px 20%;
     @media screen and (max-width: 768px) {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 0px;
         margin: 0px;
     }
@@ -28,19 +25,23 @@ const AboutStyles = {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 12px;
-    padding-right: 12px;
-    min-width: 40%;
+    min-width: 20%;
     font-size: 1.1em;
     @media screen and (max-width: 768px) {
-        min-width: 80%;
+        min-width: 90%;
+        align-items: flex-start;
         font-size: 1em;
         padding: 0;
     }
     `,
-    colLeft:css`
+    colLeft: css`
       align-items: flex-start;
-      justify-content: left;
+      justify-content: center;
+      max-width: 65%;
+      margin-right: 0;
+    `,
+    textItem: css`
+        margin: 5px 0;
     `,
     photo: css`
         object-fit: contain;
@@ -53,12 +54,17 @@ const AboutStyles = {
         padding: 5%;
         &:hover {
             border-color: ${background};
-
         }
     `,
-    link:css`
+    link: css`
         color: #aed7fb;
     `,
+    line: css`
+        color: white;
+        width: 100%;
+    `,
 };
+
+
 
 export default AboutStyles;

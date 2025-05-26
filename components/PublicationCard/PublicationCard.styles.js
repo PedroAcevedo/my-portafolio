@@ -2,7 +2,7 @@ import { css } from 'styled-components';
 
 const PublicationCardStyles = {
   wrapper: css`
-    margin: 1rem;
+    margin: 1rem 0 ;
     padding: 1.5rem;
     text-align: left;
     color: inherit;
@@ -14,6 +14,7 @@ const PublicationCardStyles = {
   row: css`
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     @media screen and (max-width: 768px) {
       flex-direction: column;
       padding: 0px;

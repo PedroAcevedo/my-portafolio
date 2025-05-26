@@ -1,10 +1,19 @@
 {
     "publication": [
         {
+            "id": 14,
+            "title": "Embodied Conversational Agents in Extended Reality: A Systematic Review",
+            "authors": "F.-C. Yang, P. Acevedo, S. Guo, M. Choi, C. Mousas",
+            "description": "IEEE Access, Vol. 13, pp. 79805-79824, 2025",
+            "pdf": "",
+            "doi": "https://doi.org/10.1109/ACCESS.2025.3566698",
+            "thumbnail": "/Publications/prisma-framework.png"
+        },
+        {
             "id": 13,
             "title": "A Systematic Review of Immersive Virtual Reality in STEM Education: Advantages and Disadvantages on Learning and User Experience",
             "authors": "P. Acevedo, A. J. Magana, B. Benes, C. Mousas",
-            "description": "IEEE Access, Vol. 12, pp. 189359–189386 2024",
+            "description": "IEEE Access, Vol. 12, pp. 189359–189386, 2024",
             "pdf": "PDF/IEEE-Access-Systematic-Review-VR-STEM.pdf",
             "doi": "https://doi.org/10.1109/ACCESS.2024.3489233",
             "thumbnail": "/Publications/conceptual-framework.png"
