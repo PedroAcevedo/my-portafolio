@@ -1,4 +1,13 @@
-import { css } from 'styled-components';
+import { css, keyframes } from 'styled-components';
+
+const shadowDance = keyframes`
+    0%, 100% {
+        text-shadow: 2px 2px 0 #ff005e, 4px 4px 0 #00d4ff;
+    }
+    50% {
+        text-shadow: -2px -2px 0 #00d4ff, -4px -4px 0 #ff005e;
+    }
+`
 
 const AboutStyles = {
     wrapper: css`
@@ -62,6 +71,11 @@ const AboutStyles = {
     line: css`
         color: white;
         width: 100%;
+    `,
+    shadowDanceText: css`
+        font-weight: bold;
+        text-shadow: 2px 2px 0 #ff005e, 4px 4px 0 #00d4ff;
+        animation: ${shadowDance} 2s infinite;
     `,
 };
 

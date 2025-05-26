@@ -38,9 +38,9 @@ const GetInTouchStyles = {
     `,
     button: css`
         display: inline;
-        color: #3E5C76;
+        color: #aed7fb;
         background-color: transparent;
-        border: 1px solid #3E5C76;
+        border: 1px solid #aed7fb;
         border-radius: 12px;
         padding: 1.3rem;
         line-height: 1;

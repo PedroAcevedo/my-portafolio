@@ -15,6 +15,7 @@ const Link = styled.a`${AboutStyles.link}`;
 const Line = styled.hr`${AboutStyles.line}`;
 const PText = styled.p`${AboutStyles.textItem}`;
 const H1Text = styled.h1`${AboutStyles.textItem}`;
+const ShadowText = styled.span`${AboutStyles.shadowDanceText}`;
 
 const About = () => {
 
@@ -46,14 +47,14 @@ const About = () => {
                         Pedro Acevedo
                     </H1Text>
                     <PText>
-                        (Fall 2025) Assistant Professor, <Link href="https://uncw.edu/" target="_blank">University of North Carolina Wilmington (UNCW)</Link>, 2025-current
+                        <ShadowText>New Position</ShadowText> Assistant Professor, <Link href="https://uncw.edu/" target="_blank">University of North Carolina Wilmington (UNCW)</Link>, Fall 2025
                     </PText>
                     <PText>
                         Ph.D in Technology, <Link href="https://www.purdue.edu/" target="_blank">Purdue University</Link>, 2021-2025
                     </PText>
                     <Line></Line>
                     <PText>
-                        I will be joining the Computer Science Department at the University of North Carolina Wilmington (UNCW) as an Assistant Professor. My research interests include Virtual Reality (VR), Educational Technology, Human-Computer Interaction (HCI), Games, Procedural Content Generation, and AI-driven Virtual Agents. During my Ph.D. in Computer Graphics Technology at Purdue University, I worked as a Unity Developer at the <Link href="https://www.ecshowcase.com/" target="_blank">Envision Center</Link> (2023–2025), where I developed educational interactive experiences for both desktop and VR platforms. Prior to that, I spent two years as a Research Assistant under the supervision of Professor Christos Mousas. I hold a Master’s and a Bachelor’s degree in Software Engineering from Universidad del Norte in Colombia.
+                        I will be joining the Computer Science Department at the University of North Carolina Wilmington (UNCW) as an Assistant Professor. My research interests include Virtual Reality (VR), Educational Technology, Human-Computer Interaction (HCI), Games, Procedural Content Generation, and AI-driven Virtual Agents. During my Ph.D. in the Virtual Reality Lab within the Computer Graphics Technology Department at Purdue University, I worked as a Unity Developer at the <Link href="https://www.ecshowcase.com/" target="_blank">Envision Center</Link> (2023–2025), where I developed educational interactive experiences for both desktop and VR platforms. Prior to that, I spent two years as a Research Assistant under the supervision of <Link href="https://web.ics.purdue.edu/~cmousas/" target="_blank">Dr. Christos Mousas</Link>. I hold both a Master’s and a Bachelor’s degree in Software Engineering from Universidad del Norte in Colombia..
                     </PText>
                     <Social></Social>
                 </ColumnText>
