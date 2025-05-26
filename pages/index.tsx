@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           gtag('config', 'G-846J8ECS8R');
         `}
       </Script>
-      
+
       <div className={styles.container}>
         <Head>
           <title>Pedro Acevedo Portafolio</title>
@@ -66,6 +66,36 @@ const Home: NextPage = () => {
         <MainSection key={0} sectionId={0} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={aboutRef}>
             <About />
+
+            <main className={styles.main}>
+              <h5 className={styles.subsectionTitle}>
+                News
+              </h5>
+
+              <hr className={styles.separationLine}></hr>
+
+              <p>Coming soon!!</p>
+            </main>
+
+            <main className={styles.main}>
+              <h5 className={styles.subsectionTitle}>
+                Teaching
+              </h5>
+
+              <hr className={styles.separationLine}></hr>
+
+              <p>Coming soon!!</p>
+            </main>
+
+            <main className={styles.main}>
+              <h5 className={styles.subsectionTitle}>
+                Services
+              </h5>
+
+              <hr className={styles.separationLine}></hr>
+
+              <p>Coming soon!!</p>
+            </main>
           </main>
         </MainSection>
 
