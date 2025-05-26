@@ -47,6 +47,7 @@ const SocialStyles = {
    }
   `,
   link: css`
+    font-size: 1.25em;
   @media screen and (max-width: 768px) {
     font-size: 1em; 
     width: 60%;

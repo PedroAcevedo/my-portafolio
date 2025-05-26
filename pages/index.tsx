@@ -58,7 +58,7 @@ const Home: NextPage = () => {
           gtag('config', 'G-846J8ECS8R');
         `}
       </Script>
-
+      
       <div className={styles.container}>
         <Head>
           <title>Pedro Acevedo Portafolio</title>
