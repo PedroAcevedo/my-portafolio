@@ -1,0 +1,22 @@
+{
+    "teaching": [
+        {
+            "category": "Fall 2025",
+            "name": "CSC 371 Game Engine Programming; CSC 461/592 Virtual Reality"
+        }
+    ],
+    "services": [
+        {
+            "category": "Journal Reviewing",
+            "name": "International Journal of Human-Computer Interaction (2025), Journal of Metaverse (2025), Computer & Graphics (2023-2024), Computer Animation and Virtual Worlds (2024), IEEE Access (2022)"
+        },
+        {
+            "category": "Conference Reviewing",
+            "name": "ISMAR (2025), VRST (2025), CASA (2025), FDG (2024-2025), FIE (2024-2025), IMX WIP (2024), IEEE VR Workshop (2023), CHI PLAY WIP (2023)"
+        },
+        {
+            "category": "Technical Committee",
+            "name": "IEEE International Symposium on Emerging Metaverse (ISEMV) (2025)"
+        }
+    ]
+}

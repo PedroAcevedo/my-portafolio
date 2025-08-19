@@ -11,8 +11,10 @@ import ExperienceList from '../components/ExperienceList/ExperienceList'
 import ProjectList from '../components/ProjectList/ProjectList'
 import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
 import PublicationList from '../components/PublicationList/PublicationList'
+import ItemList from '../components/ItemList/ItemList'
 import MainSection from './mainSection';
 import Script from 'next/script';
+import MetaData from '../public/metadata.json';
 
 const Home: NextPage = () => {
 
@@ -83,8 +85,8 @@ const Home: NextPage = () => {
               </h5>
 
               <hr className={styles.separationLine}></hr>
-
-              <p>Coming soon!!</p>
+              
+                <ItemList items={MetaData.teaching} />
             </main>
 
             <main className={styles.main}>
@@ -94,7 +96,7 @@ const Home: NextPage = () => {
 
               <hr className={styles.separationLine}></hr>
 
-              <p>Coming soon!!</p>
+                <ItemList items={MetaData.services} />
             </main>
           </main>
         </MainSection>
