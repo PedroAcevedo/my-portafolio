@@ -13,7 +13,7 @@ const ItemList = (items) => {
             <tbody>
                 {
                     listItems.map((item) => (
-                        <tr>
+                        <tr key={item.category}>
                             <Column><Category>{item.category}</Category></Column>
                             <Column>{item.name}</Column>
                         </tr>
