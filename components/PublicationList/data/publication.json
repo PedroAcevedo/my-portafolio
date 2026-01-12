@@ -1,6 +1,15 @@
 {
     "publication": [
         {
+            "id": 15,
+            "title": "Virtual Roomie: Immersive Layout Co-Design With a Virtual Agent",
+            "authors": "A. L. Jimenez; P. Acevedo; C. Mousas",
+            "description": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Daejeon, Korea, Republic of, pp. 131-141, 2025",
+            "pdf": "PDF/IEEE-ISMAR-2025-VR-Roomie.pdf",
+            "doi": "https://doi.org/10.1109/ISMAR67309.2025.00026",
+            "thumbnail": "/Publications/virtual-roomie.png"
+        },
+        {
             "id": 14,
             "title": "Embodied Conversational Agents in Extended Reality: A Systematic Review",
             "authors": "F.-C. Yang, P. Acevedo, S. Guo, M. Choi, C. Mousas",
@@ -118,4 +127,5 @@
             "thumbnail": "/Publications/JITEResearch.jpg"
         }
     ]
+
 }
