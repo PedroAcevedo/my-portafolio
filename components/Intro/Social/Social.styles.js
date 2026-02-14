@@ -24,11 +24,11 @@ const SocialStyles = {
   media: css`
    width:10%;
    background: #F0EBD8;
-   padding: 1%;
+   padding: 0.5%;
    text-align: center;
    color: #3E5C76;
 
-   &:nth-child(even) {
+   &:nth-child(odd) {
     background: #3E5C76;
     color: #F0EBD8;
    }
@@ -36,7 +36,7 @@ const SocialStyles = {
    &:hover{
     background: #3E5C76;
     color: #F0EBD8;
-    &:nth-child(even) {
+    &:nth-child(odd) {
       background: #F0EBD8;
       color: #3E5C76;
      }

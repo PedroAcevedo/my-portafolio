@@ -34,7 +34,7 @@ const AboutStyles = {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 20%;
+    min-width: 25%;
     font-size: 1.1em;
     @media screen and (max-width: 768px) {
         min-width: 90%;
@@ -47,7 +47,7 @@ const AboutStyles = {
       align-items: flex-start;
       justify-content: center;
       max-width: 65%;
-      margin-right: 0;
+      margin-left: 20px;
     `,
     textItem: css`
         margin: 5px 0;
@@ -56,11 +56,8 @@ const AboutStyles = {
         object-fit: contain;
     `,
     profile: ({ background, size }) => css`
-        border: 1px solid #eaeaea;
-        border-radius: 10px;
-        width: ${size}px;
-        height: ${size}px;
-        padding: 5%;
+        max-width: ${size}px;
+        max-height: ${size}px;
         &:hover {
             border-color: ${background};
         }

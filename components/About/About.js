@@ -20,10 +20,7 @@ const ShadowText = styled.span`${AboutStyles.shadowDanceText}`;
 const About = () => {
 
     const [photoColor, setPhotoColor] = useState("");
-    const profileSize = 200;
-    const randonBackground = () => {
-        return "#" + Math.floor(Math.random() * 16777215).toString(16);
-    }
+    const profileSize = 300;
 
     return (
         <Wrapper>
