@@ -1,165 +1,164 @@
 {
-    "publication": [
-        {
-            "id": 16,
-            "title": "Event-driven Multi-Agent Concurrent and Collaborative Coordination",
-            "authors": "P. Acevedo; F. Zhang; C. Mousas",
-            "description": "ACM SIGGRAPH Conference on Virtual Reality Continuum and Its Applications, pp. 1-10, 2026",
-            "pdf": "PDF/conf25-ACMSIGGRAPHVRCAI-multi-agent-coordination.pdf",
-            "doi": "https://doi.org/10.1145/3779232.3779273",
-            "video": "https://www.youtube.com/watch?v=XYkPnUHxbcI",
-            "thumbnail": "/Publications/conf25-ACMSIGGRAPHVRCAI-multi-agent-coordination.png"
-        },
-        {
-            "id": 15,
-            "title": "Enhancing Joy with AR Glasses: Intergenerational Engagement for Older Adults and Youth",
-            "authors": "C. Park; P. Acevedo",
-            "description": "IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), Daejeon, Korea, Republic of, pp. 131-141, 2025",
-            "pdf": "PDF/conf25-ISMAR-poster-enhancing-joy-ar",
-            "doi": "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00304",
-            "video": "",
-            "thumbnail": "/Publications/conf25-ISMAR-poster-enhancing-joy-ar.png"
-        },
-        {
-            "id": 14,
-            "title": "Virtual Roomie: Immersive Layout Co-Design With a Virtual Agent",
-            "authors": "A. L. Jimenez; P. Acevedo; C. Mousas",
-            "description": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Daejeon, Korea, Republic of, pp. 131-141, 2025",
-            "pdf": "PDF/conf25-ISMAR-vr-roomie.pdf",
-            "doi": "https://doi.org/10.1109/ISMAR67309.2025.00026",
-            "video": "https://www.youtube.com/watch?v=OW8fCjWY-e8",
-            "thumbnail": "/Publications/conf25-ISMAR-vr-roomie.png"
-        },
-        {
-            "id": 13,
-            "title": "Embodied Conversational Agents in Extended Reality: A Systematic Review",
-            "authors": "F.-C. Yang, P. Acevedo, S. Guo, M. Choi, C. Mousas",
-            "description": "IEEE Access, Vol. 13, pp. 79805-79824, 2025",
-            "pdf": "PDF/journal25-IEEEAccess-conversational-agent-review.pdf",
-            "doi": "https://doi.org/10.1109/ACCESS.2025.3566698",
-            "video": "",
-            "thumbnail": "/Publications/journal25-IEEEAccess-conversational-agent-review.png"
-        },
-        {
-            "id": 12,
-            "title": "A Systematic Review of Immersive Virtual Reality in STEM Education: Advantages and Disadvantages on Learning and User Experience",
-            "authors": "P. Acevedo, A. J. Magana, B. Benes, C. Mousas",
-            "description": "IEEE Access, Vol. 12, pp. 189359–189386, 2024",
-            "pdf": "PDF/journal24-IEEEAccess-systematic-review-vr-stem.pdf",
-            "doi": "https://doi.org/10.1109/ACCESS.2024.3489233",
-            "video": "",
-            "thumbnail": "/Publications/journal24-IEEEAccess-systematic-review-vr-stem.png"
-        },
-        {
-            "id": 11,
-            "title": "An Exploration of the Effects of in-VR Assessment Format on User Experience and Performance",
-            "authors": "P. Acevedo, A. L. Jimenez, A. J. Magana, B. Benes, C. Mousas",
-            "description": "International Conference on Artificial Reality and Telexistence & Eurographics Symposium on Virtual Environments, pp. 1-10, 2024",
-            "pdf": "PDF/conf24-EGVE-in-vr-assessment.pdf",
-            "doi": "https://doi.org/10.2312/egve.20241370",
-            "video": "https://www.youtube.com/watch?v=LGtarkRIpFc",
-            "thumbnail": "/Publications/conf24-EGVE-in-vr-assessment.jpg"
-        },
-        {
-            "id": 10,
-            "title": "The Effects of Immersion and Dimensionality in Virtual Reality Science Simulations: The Case of Charged Particles",
-            "authors": "P. Acevedo, M. Choi, A. J. Magana, B. Benes, C. Mousas",
-            "description": "IEEE International Symposium on Mixed and Augmented Reality, pp. 170-179, 2024",
-            "pdf": "PDF/conf24-IEEEISMAR-electromagnetism-2d-3d-immersion.pdf",
-            "doi": "https://doi.org/10.1109/ISMAR67309.2025.00026",
-            "video": "https://www.youtube.com/watch?v=icaOmNZb6sk",
-            "thumbnail": "/Publications/conf24-IEEEISMAR-electromagnetism-2d-3d-immersion.png"
-        },
-        {
-            "id": 9,
-            "title": "Game Level Design to Evoke Spatial Exploration: The Influence of a Secondary Task",
-            "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
-            "description": "ACM Annual Symposium on Computer-Human Interaction in Play (CHI Play) Companion Proceedings, pp. 4–10, 2024",
-            "pdf": "PDF/conf24-ACMCHIPLAY-game-exploration-coins.3678811.pdf",
-            "doi": "https://dl.acm.org/doi/abs/10.1145/3665463.3678811",
-            "video": "",
-            "thumbnail": "/Publications/conf24-ACMCHIPLAY-game-exploration-coins.png"
-        },
-        {
-            "id": 8,
-            "title": "Embodied Immersive Virtual Reality to Enhance the Conceptual Understanding of Charged Particles: A Qualitative Study",
-            "authors": "P. Acevedo, A. J. Magana, Y. Walsh, H. W. Pinto, B. Benes, C. Mousas",
-            "description": "Computers & Education: X Reality, Volume 5, pp. 100075, 2024",
-            "pdf": "PDF/journal24-Computer&EducationXReality-embodied-vr-particles.pdf",
-            "doi": "https://doi.org/10.1016/j.cexr.2024.100075",
-            "video": "",
-            "thumbnail": "/Publications/journal24-Computer&EducationXReality-embodied-vr-particles.png"
-        },
-        {
-            "id": 7,
-            "title": "Optimizing Retroreflective Marker Set for Motion Capturing Props",
-            "authors": "P. Acevedo, B. Rekabdar, C. Mousas",
-            "description": "Computers & Graphics (Proc. of CAD/Graphics 2023), Vol. 115, pp. 181-190, 2023",
-            "pdf": "PDF/journal23-CAG-prop-markerset.pdf",
-            "doi": "https://doi.org/10.1016/j.cag.2023.07.021",
-            "video": "",
-            "thumbnail": "/Publications/journal23-CAG-prop-markerset.png"
-        },
-        {
-            "id": 6,
-            "title": "Effects of Tactile Feedback on Conceptual Understanding of Electromagnetism in a Virtual Reality Experience",
-            "authors": "P. Acevedo, A. Magana, C. Mousas, Y. Walsh, H. W. Pinto, B. Benes",
-            "description": "IEEE International Symposium on Mixed and Augmented Reality (Adjunct), pp. 588-593, 2022",
-            "pdf": "PDF/conf22-IEEEISMAR-poster-electromagnetism.pdf",
-            "doi": "https://doi.org/10.1109/ISMAR-Adjunct57072.2022.00122",
-            "video": "",
-            "thumbnail": "/Publications/conf22-IEEEISMAR-poster-electromagnetism.png"
-        },
-        {
-            "id": 5,
-            "title": "Procedural Game Level Design to Trigger Spatial Exploration",
-            "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
-            "description": "International Conference on the Foundations of Digital Games (PCG Workshop), pp. 1-11, 2022",
-            "pdf": "PDF/conf22-FDG-spatial-exploration.pdf",
-            "doi": "https://doi.org/10.1145/3555858.3563272",
-            "video": "",
-            "thumbnail": "/Publications/conf22-FDG-spatial-exploration.png"
-        },
-        {
-            "id": 4,
-            "title": "Vitool-BC: Visualization tool based on Cooja simulator for WSN",
-            "authors": "D. Jabba, P. Acevedo",
-            "description": "Applied Sciences 11 (16), 7665, 2021",
-            "pdf": "PDF/journal21-AppliedScience-vitool.pdf",
-            "doi": "https://doi.org/10.3390/app11167665",
-            "video": "",
-            "thumbnail": "/Publications/journal21-AppliedScience-vitool.png"
-        },
-        {
-            "id": 3,
-            "title": "WRF-RPL: Weighted random forward RPL for high traffic and energy demanding scenarios",
-            "authors": "PD. Acevedo, D. Jabba, P. Sanmartín, S. Valle, ED. Nino-Ruiz",
-            "description": "IEEE Access 9, 60163-60174, 2021",
-            "pdf": "PDF/journal21-IEEEAccess-wrf-rpl.pdf",
-            "doi": "https://doi.org/10.1109/ACCESS.2021.3074436",
-            "video": "",
-            "thumbnail": "/Publications/journal21-IEEEAccess-wrf-rpl.png"
-        },
-        {
-            "id": 2,
-            "title": "Web Apps for Intercultural Competences and Sustainable Development: A Case Study in Higher Education",
-            "authors": "C. Ricardo-Barreto, J. Mizuno, D. Jabba, H. Llinás, A. Medina-Rivilla, C.A. Acevedo, P. Acevedo, J. Peña, C. Baloco, S. Villarreal",
-            "description": "Handbook of Research on Promoting Social Justice for Immigrants and Refugees Through Active Citizenship and Intercultural Education, 349-373, 2021",
-            "pdf": "https://www.irma-international.org/viewtitle/282321/?isxn=9781799872832",
-            "doi": "",
-            "video": "",
-            "thumbnail": "/Publications/book21-SocialJustice-incities.jpg"
-        },
-        {
-            "id": 1,
-            "title": "Trends in using ICT resources by professors in HEIs (higher education institutions)",
-            "authors": "C. Ricardo-Barreto, D. Jabba, H. Llinás, J. Peña, C.A. Acevedo, PD. Acevedo,  C. Baloco, S. Villarreal",
-            "description": "Journal of Information Technology Education: Research, Vol. 19, pp. 395-425, 2020",
-            "pdf": "",
-            "doi": "https://doi.org/10.28945/4601",
-            "video": "",
-            "thumbnail": "/Publications/journal20-JITEResearch-trends-ict.jpg"
-        }
-    ]
-
+  "publication": [
+    {
+      "id": 16,
+      "title": "Event-driven Multi-Agent Concurrent and Collaborative Coordination",
+      "authors": "P. Acevedo; F. Zhang; C. Mousas",
+      "description": "ACM SIGGRAPH Conference on Virtual Reality Continuum and Its Applications, pp. 1-10, 2026",
+      "pdf": "PDF/conf25-ACMSIGGRAPHVRCAI-multi-agent-coordination.pdf",
+      "doi": "https://doi.org/10.1145/3779232.3779273",
+      "video": "https://www.youtube.com/watch?v=XYkPnUHxbcI",
+      "thumbnail": "/Publications/conf25-ACMSIGGRAPHVRCAI-multi-agent-coordination.png"
+    },
+    {
+      "id": 15,
+      "title": "Enhancing Joy with AR Glasses: Intergenerational Engagement for Older Adults and Youth",
+      "authors": "C. Park; P. Acevedo",
+      "description": "IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), Daejeon, Korea, pp. 131-141, 2025",
+      "pdf": "PDF/conf25-ISMAR-poster-enhancing-joy-ar.pdf",
+      "doi": "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00304",
+      "video": "",
+      "thumbnail": "/Publications/conf25-ISMAR-poster-enhancing-joy-ar.png"
+    },
+    {
+      "id": 14,
+      "title": "Virtual Roomie: Immersive Layout Co-Design With a Virtual Agent",
+      "authors": "A. L. Jimenez; P. Acevedo; C. Mousas",
+      "description": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Daejeon, Korea, pp. 131-141, 2025",
+      "pdf": "PDF/conf25-ISMAR-vr-roomie.pdf",
+      "doi": "https://doi.org/10.1109/ISMAR67309.2025.00026",
+      "video": "https://www.youtube.com/watch?v=OW8fCjWY-e8",
+      "thumbnail": "/Publications/conf25-ISMAR-vr-roomie.png"
+    },
+    {
+      "id": 13,
+      "title": "Embodied Conversational Agents in Extended Reality: A Systematic Review",
+      "authors": "F.-C. Yang, P. Acevedo, S. Guo, M. Choi, C. Mousas",
+      "description": "IEEE Access, Vol. 13, pp. 79805-79824, 2025",
+      "pdf": "PDF/journal25-IEEEAccess-conversational-agent-review.pdf",
+      "doi": "https://doi.org/10.1109/ACCESS.2025.3566698",
+      "video": "",
+      "thumbnail": "/Publications/journal25-IEEEAccess-conversational-agent-review.png"
+    },
+    {
+      "id": 12,
+      "title": "A Systematic Review of Immersive Virtual Reality in STEM Education: Advantages and Disadvantages on Learning and User Experience",
+      "authors": "P. Acevedo, A. J. Magana, B. Benes, C. Mousas",
+      "description": "IEEE Access, Vol. 12, pp. 189359-189386, 2024",
+      "pdf": "PDF/journal24-IEEEAccess-systematic-review-vr-stem.pdf",
+      "doi": "https://doi.org/10.1109/ACCESS.2024.3489233",
+      "video": "",
+      "thumbnail": "/Publications/journal24-IEEEAccess-systematic-review-vr-stem.png"
+    },
+    {
+      "id": 11,
+      "title": "An Exploration of the Effects of in-VR Assessment Format on User Experience and Performance",
+      "authors": "P. Acevedo, A. L. Jimenez, A. J. Magana, B. Benes, C. Mousas",
+      "description": "International Conference on Artificial Reality and Telexistence & Eurographics Symposium on Virtual Environments, pp. 1-10, 2024",
+      "pdf": "PDF/conf24-EGVE-in-vr-assessment.pdf",
+      "doi": "https://doi.org/10.2312/egve.20241370",
+      "video": "https://www.youtube.com/watch?v=LGtarkRIpFc",
+      "thumbnail": "/Publications/conf24-EGVE-in-vr-assessment.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Effects of Immersion and Dimensionality in Virtual Reality Science Simulations: The Case of Charged Particles",
+      "authors": "P. Acevedo, M. Choi, A. J. Magana, B. Benes, C. Mousas",
+      "description": "IEEE International Symposium on Mixed and Augmented Reality, pp. 170-179, 2024",
+      "pdf": "PDF/conf24-IEEEISMAR-electromagnetism-2d-3d-immersion.pdf",
+      "doi": "https://doi.org/10.1109/ISMAR62088.2024.00031",
+      "video": "https://www.youtube.com/watch?v=icaOmNZb6sk",
+      "thumbnail": "/Publications/conf24-IEEEISMAR-electromagnetism-2d-3d-immersion.png"
+    },
+    {
+      "id": 9,
+      "title": "Game Level Design to Evoke Spatial Exploration: The Influence of a Secondary Task",
+      "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
+      "description": "ACM Annual Symposium on Computer-Human Interaction in Play (CHI Play) Companion Proceedings, pp. 4-10, 2024",
+      "pdf": "PDF/conf24-ACMCHIPLAY-game-exploration-coins.3678811.pdf",
+      "doi": "https://dl.acm.org/doi/abs/10.1145/3665463.3678811",
+      "video": "",
+      "thumbnail": "/Publications/conf24-ACMCHIPLAY-game-exploration-coins.png"
+    },
+    {
+      "id": 8,
+      "title": "Embodied Immersive Virtual Reality to Enhance the Conceptual Understanding of Charged Particles: A Qualitative Study",
+      "authors": "P. Acevedo, A. J. Magana, Y. Walsh, H. W. Pinto, B. Benes, C. Mousas",
+      "description": "Computers & Education: X Reality, Volume 5, pp. 100075, 2024",
+      "pdf": "PDF/journal24-Computer&EducationXReality-embodied-vr-particles.pdf",
+      "doi": "https://doi.org/10.1016/j.cexr.2024.100075",
+      "video": "",
+      "thumbnail": "/Publications/journal24-Computer&EducationXReality-embodied-vr-particles.png"
+    },
+    {
+      "id": 7,
+      "title": "Optimizing Retroreflective Marker Set for Motion Capturing Props",
+      "authors": "P. Acevedo, B. Rekabdar, C. Mousas",
+      "description": "Computers & Graphics (Proc. of CAD/Graphics 2023), Vol. 115, pp. 181-190, 2023",
+      "pdf": "PDF/journal23-CAG-prop-markerset.pdf",
+      "doi": "https://doi.org/10.1016/j.cag.2023.07.021",
+      "video": "",
+      "thumbnail": "/Publications/journal23-CAG-prop-markerset.png"
+    },
+    {
+      "id": 6,
+      "title": "Effects of Tactile Feedback on Conceptual Understanding of Electromagnetism in a Virtual Reality Experience",
+      "authors": "P. Acevedo, A. Magana, C. Mousas, Y. Walsh, H. W. Pinto, B. Benes",
+      "description": "IEEE International Symposium on Mixed and Augmented Reality (Adjunct), pp. 588-593, 2022",
+      "pdf": "PDF/conf22-IEEEISMAR-poster-electromagnetism.pdf",
+      "doi": "https://doi.org/10.1109/ISMAR-Adjunct57072.2022.00122",
+      "video": "",
+      "thumbnail": "/Publications/conf22-IEEEISMAR-poster-electromagnetism.png"
+    },
+    {
+      "id": 5,
+      "title": "Procedural Game Level Design to Trigger Spatial Exploration",
+      "authors": "P. Acevedo, M. Choi, H. Liu, D. Kao, C. Mousas",
+      "description": "International Conference on the Foundations of Digital Games (PCG Workshop), pp. 1-11, 2022",
+      "pdf": "PDF/conf22-FDG-spatial-exploration.pdf",
+      "doi": "https://doi.org/10.1145/3555858.3563272",
+      "video": "",
+      "thumbnail": "/Publications/conf22-FDG-spatial-exploration.png"
+    },
+    {
+      "id": 4,
+      "title": "Vitool-BC: Visualization tool based on Cooja simulator for WSN",
+      "authors": "D. Jabba, P. Acevedo",
+      "description": "Applied Sciences 11 (16), 7665, 2021",
+      "pdf": "PDF/journal21-AppliedScience-vitool.pdf",
+      "doi": "https://doi.org/10.3390/app11167665",
+      "video": "",
+      "thumbnail": "/Publications/journal21-AppliedScience-vitool.png"
+    },
+    {
+      "id": 3,
+      "title": "WRF-RPL: Weighted random forward RPL for high traffic and energy demanding scenarios",
+      "authors": "PD. Acevedo, D. Jabba, P. Sanmartin, S. Valle, ED. Nino-Ruiz",
+      "description": "IEEE Access 9, 60163-60174, 2021",
+      "pdf": "PDF/journal21-IEEEAccess-wrf-rpl.pdf",
+      "doi": "https://doi.org/10.1109/ACCESS.2021.3074436",
+      "video": "",
+      "thumbnail": "/Publications/journal21-IEEEAccess-wrf-rpl.png"
+    },
+    {
+      "id": 2,
+      "title": "Web Apps for Intercultural Competences and Sustainable Development: A Case Study in Higher Education",
+      "authors": "C. Ricardo-Barreto, J. Mizuno, D. Jabba, H. Llinas, A. Medina-Rivilla, C.A. Acevedo, P. Acevedo, J. Pena, C. Baloco, S. Villarreal",
+      "description": "Handbook of Research on Promoting Social Justice for Immigrants and Refugees Through Active Citizenship and Intercultural Education, 349-373, 2021",
+      "pdf": "https://www.irma-international.org/viewtitle/282321/?isxn=9781799872832",
+      "doi": "",
+      "video": "",
+      "thumbnail": "/Publications/book21-SocialJustice-incities.jpg"
+    },
+    {
+      "id": 1,
+      "title": "Trends in using ICT resources by professors in HEIs (higher education institutions)",
+      "authors": "C. Ricardo-Barreto, D. Jabba, H. Llinas, J. Pena, C.A. Acevedo, PD. Acevedo,  C. Baloco, S. Villarreal",
+      "description": "Journal of Information Technology Education: Research, Vol. 19, pp. 395-425, 2020",
+      "pdf": "",
+      "doi": "https://doi.org/10.28945/4601",
+      "video": "",
+      "thumbnail": "/Publications/journal20-JITEResearch-trends-ict.jpg"
+    }
+  ]
 }

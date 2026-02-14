@@ -1,4 +1,4 @@
-import React, { MutableRefObject, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useIntersectionObserver } from '../utils/IntersectionObserver';
 
 const MainSection = ({ children, sectionId, onIntersecting }: {
@@ -13,7 +13,7 @@ const MainSection = ({ children, sectionId, onIntersecting }: {
 
     useEffect(() => {
         onIntersecting(sectionId, isIntersecting);
-     });
+     }, [isIntersecting, onIntersecting, sectionId]);
 
     return (
         <div key={sectionId} ref={ref}>

@@ -1,26 +1,23 @@
 import styled from "styled-components";
 import ItemListStyles from './ItemList.styles';
 
-const Wrapper = styled.table`${ItemListStyles.wrapper}`;
+const Wrapper = styled.div`${ItemListStyles.wrapper}`;
+const Row = styled.div`${ItemListStyles.row}`;
 const Category = styled.span`${ItemListStyles.category}`;
-const Column = styled.td`${ItemListStyles.column}`;
+const Column = styled.div`${ItemListStyles.column}`;
 
-const ItemList = (items) => {
-    const listItems = items.items;
-    console.log(items.items);
+const ItemList = ({ items }) => {
+    const listItems = items;
     return (
         <Wrapper>
-            <tbody>
-                {
-                    listItems.map((item) => (
-                        <tr key={item.category}>
-                            <Column><Category>{item.category}</Category></Column>
-                            <Column>{item.name}</Column>
-                        </tr>
-                    ))
-                }
-
-            </tbody>
+            {
+                listItems.map((item) => (
+                    <Row key={item.category}>
+                        <Column><Category>{item.category}</Category></Column>
+                        <Column>{item.name}</Column>
+                    </Row>
+                ))
+            }
         </Wrapper>
     );
 }

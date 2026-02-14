@@ -1,46 +1,58 @@
-import React, { MutableRefObject, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header/Header";
-import Intro from "../components/Intro/Intro";
 import GetInTouch from "../components/GetInTouch/GetInTouch";
 import About from "../components/About/About";
-import ExperienceList from "../components/ExperienceList/ExperienceList";
-import ProjectList from "../components/ProjectList/ProjectList";
 import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 import PublicationList from "../components/PublicationList/PublicationList";
 import ItemList from "../components/ItemList/ItemList";
+import NewsList from "../components/NewsList/NewsList";
 import MainSection from "./mainSection";
 import Script from "next/script";
 import MetaData from "../public/metadata.json";
 
 const Home: NextPage = () => {
-  const aboutRef = useRef(null);
-  const pubRef = useRef(null);
-  const teachRef = useRef(null);
-  const serviceRef = useRef(null);
-  const contactRef = useRef(null);
+  const aboutRef = useRef<HTMLElement | null>(null);
+  const teachRef = useRef<HTMLElement | null>(null);
+  const serviceRef = useRef<HTMLElement | null>(null);
+  const pubRef = useRef<HTMLElement | null>(null);
+  const contactRef = useRef<HTMLElement | null>(null);
 
   const [CurrentRef, SetCurrentRef] = useState(0);
-  const [IsScrolling, SetIsScrolling] = useState(false);
 
   useEffect(() => {
-    const onscroll = () => SetIsScrolling(true);
-    window.addEventListener("scroll", onscroll);
+    const sectionRefs = [aboutRef, teachRef, serviceRef, pubRef, contactRef];
+    const headerOffset = 96;
+
+    const updateCurrentSection = () => {
+      let activeIndex = 0;
+
+      sectionRefs.forEach((sectionRef, index) => {
+        const section = sectionRef.current;
+        if (!section) return;
+        const top = section.getBoundingClientRect().top;
+        if (top - headerOffset <= 0) {
+          activeIndex = index;
+        }
+      });
+
+      SetCurrentRef(activeIndex);
+    };
+
+    updateCurrentSection();
+    window.addEventListener("scroll", updateCurrentSection, { passive: true });
+    window.addEventListener("resize", updateCurrentSection);
+
     return () => {
-      window.removeEventListener("scroll", onscroll);
+      window.removeEventListener("scroll", updateCurrentSection);
+      window.removeEventListener("resize", updateCurrentSection);
     };
   }, []);
 
-  const ChangeCurrentRef = (current: number, visible: boolean) => {
-    if (visible && IsScrolling) {
-      SetCurrentRef(current);
-      console.log("The current is " + current);
-      SetIsScrolling(false);
-    }
-  };
+  const ChangeCurrentRef = useCallback(() => {}, []);
 
   return (
     <>
@@ -61,7 +73,7 @@ const Home: NextPage = () => {
 
       <div className={styles.container}>
         <Head>
-          <title>Pedro Acevedo Portafolio</title>
+          <title>Pedro Acevedo Portfolio</title>
         </Head>
 
         <MainSection key={0} sectionId={0} onIntersecting={ChangeCurrentRef}>
@@ -73,12 +85,12 @@ const Home: NextPage = () => {
 
               <hr className={styles.separationLine}></hr>
 
-              <p>Coming soon!!</p>
+              <NewsList initialVisibleCount={4} />
             </main>
           </main>
         </MainSection>
 
-        <MainSection key={2} sectionId={2} onIntersecting={ChangeCurrentRef}>
+        <MainSection key={1} sectionId={1} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={teachRef}>
             <h5 className={styles.subsectionTitle}>Teaching</h5>
 
@@ -88,7 +100,7 @@ const Home: NextPage = () => {
           </main>
         </MainSection>
 
-        <MainSection key={3} sectionId={3} onIntersecting={ChangeCurrentRef}>
+        <MainSection key={2} sectionId={2} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={serviceRef}>
             <h5 className={styles.subsectionTitle}>Services</h5>
 
@@ -98,7 +110,7 @@ const Home: NextPage = () => {
           </main>
         </MainSection>
 
-        <MainSection key={1} sectionId={1} onIntersecting={ChangeCurrentRef}>
+        <MainSection key={3} sectionId={3} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={pubRef}>
             <h5 className={styles.subsectionTitle}>Publications</h5>
 

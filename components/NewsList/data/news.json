@@ -1,0 +1,39 @@
+{
+  "news": [
+    {
+      "id": 7,
+      "date": "Aug 2025",
+      "text": "One paper has been accepted to IEEE ISMAR 2025!"
+    },
+    {
+      "id": 6,
+      "date": "Aug 2025",
+      "text": "I am glad to share that I have started a new position as an Assistant Professor in the Department of Computer Science at University of North Carolina Wilmington."
+    },
+    {
+      "id": 5,
+      "date": "Apr 2025",
+      "text": "I have successfully defended my Ph.D. dissertation, Immersive Virtual Reality Simulation of Charged Particles: Design Guidelines and User Experience."
+    },
+    {
+      "id": 4,
+      "date": "Dec 2024",
+      "text": "I have passed the dissertation proposal."
+    },
+    {
+      "id": 2,
+      "date": "Nov 2023",
+      "text": "I have passed the preliminary examination."
+    },
+    {
+      "id": 2,
+      "date": "Aug 2021",
+      "text": "I have joined Purdue University for a PhD!"
+    },
+    {
+      "id": 1,
+      "date": "Mar 2022",
+      "text": "Created a personal website. I will post updates here."
+    }
+  ]
+}

@@ -2,31 +2,34 @@ import { css } from 'styled-components';
 
 const SocialStyles = {
   wrapper: css`
-    width: 100%;
-    margin-top: 10px;
-    overflow: hidden;
-    @media screen and (max-width: 768px) {
-      width: 100%;
-    }
-    `,
+    width: min(760px, 100%);
+    margin-top: 0.75rem;
+  `,
   socialList: css`
-    display: flex;
-    list-style-type: none; 
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    flex-wrap: wrap;
-    row-gap: 5px;
-    column-gap: 5px;
-    @media screen and (max-width: 768px) {
-      flex-direction: column;
+    gap: 0.35rem;
+    width: 100%;
+    @media screen and (max-width: 900px) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
-   `,
+    @media screen and (max-width: 480px) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 0.3rem;
+    }
+  `,
   media: css`
-   width:10%;
+   width: 100%;
+   height: clamp(38px, 4.2vw, 46px);
+   display: grid;
+   place-items: center;
    background: #F0EBD8;
-   padding: 0.5%;
    text-align: center;
    color: #3E5C76;
+   border-radius: 8px;
 
    &:nth-child(odd) {
     background: #3E5C76;
@@ -41,18 +44,11 @@ const SocialStyles = {
       color: #3E5C76;
      }
    }
-
-   @media screen and (max-width: 768px) {
-    width: 100%;
-   }
   `,
   link: css`
-    font-size: 1.25em;
-  @media screen and (max-width: 768px) {
-    font-size: 1em; 
-    width: 60%;
-  }
- `,
+    font-size: clamp(1.05rem, 1.8vw, 1.25rem);
+    line-height: 1;
+  `,
 
 };
 

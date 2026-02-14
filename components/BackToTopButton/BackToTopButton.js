@@ -40,7 +40,7 @@ const BackToTopButton = () => {
                 isVisible &&
                 <Wrapper onClick={BackToTop}>
                     <Arrow>
-                        <Image src="/up-arrow-svgrepo-com.svg" alt="Github Logo" width={60} height={60} />
+                        <Image src="/up-arrow-svgrepo-com.svg" alt="Back to top" width={20} height={20} />
                     </Arrow>
                 </Wrapper>
             }

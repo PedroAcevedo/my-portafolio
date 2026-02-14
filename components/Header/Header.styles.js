@@ -1,5 +1,7 @@
 import { css } from 'styled-components';
 
+const MOBILE_BREAKPOINT = "1024px";
+
 const HeaderStyles = {
   wrapper: css`
       display: flex;
@@ -12,21 +14,23 @@ const HeaderStyles = {
       left: 0;
       z-index: 10;
       background-color: #11151c;
+      min-height: var(--header-height);
+      padding: 0.5rem 1rem;
       
-      @media screen and (max-width: 768px) {
-        padding-top: 15%;
+      @media screen and (max-width: ${MOBILE_BREAKPOINT}) {
+        justify-content: space-between;
+        min-height: 4.25rem;
       }
     `,
   logo: css`
       cursor: pointer;
-      margin-right: 7%;
-      @media screen and (max-width: 768px) {
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
+      margin-right: 1rem;
+      h2 {
         margin: 0;
-        margin-left: 20px;
+        font-size: clamp(1.1rem, 3.4vw, 1.5rem);
+      }
+      @media screen and (max-width: ${MOBILE_BREAKPOINT}) {
+        margin: 0;
       }
     `,
   navigation: css`
@@ -34,7 +38,7 @@ const HeaderStyles = {
       padding: 20px;
       overflow: hidden;
       list-style: none;
-      @media screen and (max-width: 768px) {
+      @media screen and (max-width: ${MOBILE_BREAKPOINT}) {
         display: none;
       }
     `,
@@ -60,7 +64,7 @@ const HeaderStyles = {
     padding: 0.75rem 1rem;
     line-height: 1;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 0.5rem;
 
     &:hover{
       color: #D2D4C8;
@@ -70,12 +74,12 @@ const HeaderStyles = {
   bars: css`
     display: none;
     color: #E8EDDF;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: ${MOBILE_BREAKPOINT}) {
       display: block;
       position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 75%);
+      top: 0.95rem;
+      right: 1rem;
+      transform: none;
       font-size: 1.5rem;
       cursor: pointer;
     }
@@ -85,7 +89,7 @@ const HeaderStyles = {
     position: fixed;
     top: 0;
     right: ${(isOpen ? "0" : "-100%")};
-    width: 75%;
+    width: min(340px, 85vw);
     height: 100%;
     background-color: #11151c;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
@@ -100,7 +104,7 @@ const HeaderStyles = {
     margin: 1rem 0;
     cursor: pointer;
     list-style: none;
-    margin-top: 35px;
+    font-size: 1.05rem;
     `
 };
 
