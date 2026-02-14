@@ -26,22 +26,22 @@ const SocialStyles = {
    height: clamp(38px, 4.2vw, 46px);
    display: grid;
    place-items: center;
-   background: #F0EBD8;
+   background: var(--color-text-title);
    text-align: center;
-   color: #3E5C76;
+   color: var(--color-accent);
    border-radius: 8px;
 
    &:nth-child(odd) {
-    background: #3E5C76;
-    color: #F0EBD8;
+    background: var(--color-accent);
+    color: var(--color-text-title);
    }
 
    &:hover{
-    background: #3E5C76;
-    color: #F0EBD8;
+    background: var(--color-accent);
+    color: var(--color-text-title);
     &:nth-child(odd) {
-      background: #F0EBD8;
-      color: #3E5C76;
+      background: var(--color-text-title);
+      color: var(--color-accent);
      }
    }
   `,
@@ -53,3 +53,4 @@ const SocialStyles = {
 };
 
 export default SocialStyles;
+

@@ -10,14 +10,14 @@ const GetInTouchStyles = {
   `,
   labelColor: css`
     font-size: 1em;
-    color: #E8EDDF;
+    color: var(--color-text-strong);
   `,
   title: css`
     font-size: clamp(2rem, 7vw, 4rem);
     margin-bottom: 0.75rem;
     line-height: 1.15;
     text-align: center;
-    color: #F0EBD8;
+    color: var(--color-text-title);
   `,
   description: css`
     font-size: clamp(1rem, 2.2vw, 1.2rem);
@@ -29,9 +29,9 @@ const GetInTouchStyles = {
   `,
   button: css`
     display: inline-block;
-    color: #aed7fb;
+    color: var(--color-accent-soft);
     background-color: transparent;
-    border: 1px solid #aed7fb;
+    border: 1px solid var(--color-accent-soft);
     border-radius: 12px;
     padding: 0.95rem 1.25rem;
     line-height: 1;
@@ -39,10 +39,11 @@ const GetInTouchStyles = {
     margin-top: 0.75rem;
 
     &:hover{
-      color: #D2D4C8;
-      border-color: #D2D4C8;
+      color: var(--color-text-base);
+      border-color: var(--color-text-base);
     }
   `,
 };
 
 export default GetInTouchStyles;
+

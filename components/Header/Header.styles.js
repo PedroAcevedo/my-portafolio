@@ -7,13 +7,13 @@ const HeaderStyles = {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
-      border-bottom: 4mm ridge rgba(62,92,118, .8);
+      border-bottom: 4mm ridge rgba(var(--color-accent-rgb), 0.8);
       width: 100%;
       position: fixed;
       top: 0;
       left: 0;
       z-index: 10;
-      background-color: #11151c;
+      background-color: var(--color-bg-primary);
       min-height: var(--header-height);
       padding: 0.5rem 1rem;
       
@@ -48,18 +48,18 @@ const HeaderStyles = {
     padding: 0.75rem 1rem;
 
     ${isCurrent && `
-      background-color: #3E5C76;
+      background-color: var(--color-accent);
     `}
 
     &:hover ${className} {
-      background-color: #3E5C76;
+      background-color: var(--color-accent);
     }
    `,
   button: css`
     display: inline;
-    color: #aed7fb;
+    color: var(--color-accent-soft);
     background-color: transparent;
-    border: 1px solid #aed7fb;
+    border: 1px solid var(--color-accent-soft);
     border-radius: 12px;
     padding: 0.75rem 1rem;
     line-height: 1;
@@ -67,13 +67,13 @@ const HeaderStyles = {
     margin-left: 0.5rem;
 
     &:hover{
-      color: #D2D4C8;
-      border-color: #D2D4C8;
+      color: var(--color-text-base);
+      border-color: var(--color-text-base);
     }
   `,
   bars: css`
     display: none;
-    color: #E8EDDF;
+    color: var(--color-text-strong);
     @media screen and (max-width: ${MOBILE_BREAKPOINT}) {
       display: block;
       position: absolute;
@@ -91,8 +91,8 @@ const HeaderStyles = {
     right: ${(isOpen ? "0" : "-100%")};
     width: min(340px, 85vw);
     height: 100%;
-    background-color: #11151c;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-bg-primary);
+    box-shadow: -2px 0 5px rgba(var(--color-black-rgb), 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,3 +109,4 @@ const HeaderStyles = {
 };
 
 export default HeaderStyles;
+

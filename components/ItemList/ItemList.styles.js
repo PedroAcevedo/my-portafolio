@@ -25,7 +25,7 @@ const ItemListStyles = {
   `,
   category: css`
     font-weight: bold;
-    color: #f0ebd8;
+    color: var(--color-text-title);
   `,
   column: css`
     min-width: 0;
@@ -35,3 +35,4 @@ const ItemListStyles = {
 };
 
 export default ItemListStyles;
+

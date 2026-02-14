@@ -12,14 +12,14 @@ const IntroStyles = {
     `,
     labelColor: css`
         font-size: 1em;
-        color: #E8EDDF;
+        color: var(--color-text-strong);
     `,
     title: ({alternative}) => css`
         font-size: 4rem;
         margin: 0;
         line-height: 1.15;
         text-align: left;
-        color: ${alternative ? '#3E5C76' : '#F0EBD8'};
+        color: ${alternative ? "var(--color-accent)" : "var(--color-text-title)"};
 
         @media screen and (max-width: 768px) {
             font-size: 2em; 
@@ -36,3 +36,4 @@ const IntroStyles = {
 };
 
 export default IntroStyles;
+

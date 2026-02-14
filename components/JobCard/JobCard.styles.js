@@ -7,7 +7,7 @@ const JobCardStyles = {
     text-align: left;
     color: inherit;
     text-decoration: none;
-    border: 1px solid #eaeaea;
+    border: 1px solid var(--color-border-muted);
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
     `,
@@ -40,3 +40,4 @@ const JobCardStyles = {
 };
 
 export default JobCardStyles;
+

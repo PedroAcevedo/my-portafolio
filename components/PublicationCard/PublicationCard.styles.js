@@ -50,15 +50,15 @@ const PublicationCardStyles = {
    margin-right: 0;
    padding: 0.3rem 0.75rem;
    text-align: center;
-   color: #D2D4C8;
+   color: var(--color-text-base);
    background-color: transparent;
-   border: 1px solid #D2D4C8;
+   border: 1px solid var(--color-text-base);
    border-radius: 12px;
    white-space: nowrap;
    text-decoration: none;
    &:hover {
-    color: #3E5C76;
-    border-color: #3E5C76;
+    color: var(--color-accent);
+    border-color: var(--color-accent);
    }
    @media screen and (max-width: 420px) {
     font-size: 0.9rem;
@@ -83,3 +83,4 @@ const PublicationCardStyles = {
 };
 
 export default PublicationCardStyles;
+

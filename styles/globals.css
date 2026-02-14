@@ -3,9 +3,11 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  background-color: #11151C;
-  color: #D2D4C8;
+  font-family:
+    -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI",
+    "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-base);
   line-height: 1.5;
 }
 
@@ -18,6 +20,22 @@ body {
   --table-col-gap: 0.75rem;
   --table-row-gap: 0.4rem;
   --table-row-stack-gap: 0.2rem;
+  /* Academic Dark (soft, not pure black) */
+  --color-bg-primary: #161a1d;
+  --color-text-base: #d6d9dd;
+  --color-text-strong: #edf0f2;
+  --color-text-title: #f5f7f8;
+  --color-accent: #3f5f7a;
+  --color-accent-soft: #9ec2df;
+  --color-border-muted: #3a434a;
+  --color-surface-light: #20262b;
+  --color-link: #7fb0da;
+  --color-neon-pink: #c46a8a;
+  --color-neon-cyan: #5ca6b6;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-accent-rgb: 62, 92, 118;
+  --color-black-rgb: 0, 0, 0;
 }
 
 *,

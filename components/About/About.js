@@ -1,7 +1,9 @@
 import Image from "next/image";
+import { useEffect } from "react";
 import styled from "styled-components";
 import AboutStyles from "./About.styles";
 import Social from "../Intro/Social/Social";
+import { cycleTheme, loadSavedTheme, themes } from "../../utils/themePalette";
 
 const Column = styled.div`${AboutStyles.col}`;
 const ColumnText = styled(Column)`${AboutStyles.colLeft}`;
@@ -18,11 +20,31 @@ const ShadowText = styled.span`${AboutStyles.shadowDanceText}`;
 const About = () => {
   const profileSize = 300;
 
+  useEffect(() => {
+    loadSavedTheme();
+  }, []);
+
+  const handleProfileKeyDown = (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      cycleTheme();
+    }
+  };
+
   return (
     <Wrapper>
       <Row>
         <Column>
-          <Profile background="" size={profileSize}>
+          <Profile
+            background=""
+            size={profileSize}
+            onClick={cycleTheme}
+            onKeyDown={handleProfileKeyDown}
+            role="button"
+            tabIndex={0}
+            title={`Easter egg: click to switch color theme (${themes.length} themes)`}
+            aria-label="Switch website color theme"
+          >
             <Photo src="/me.jpg" alt="Me" width={profileSize} height={profileSize} />
           </Profile>
         </Column>

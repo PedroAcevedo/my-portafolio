@@ -25,7 +25,7 @@ const NewsListStyles = {
   `,
   date: css`
     font-weight: bold;
-    color: #f0ebd8;
+    color: var(--color-text-title);
   `,
   text: css`
     min-width: 0;
@@ -33,7 +33,7 @@ const NewsListStyles = {
     line-height: 1.55;
   `,
   link: css`
-    color: #aed7fb;
+    color: var(--color-accent-soft);
     text-decoration: underline;
     text-underline-offset: 2px;
   `,
@@ -42,9 +42,9 @@ const NewsListStyles = {
   `,
   button: css`
     display: inline-block;
-    color: #aed7fb;
+    color: var(--color-accent-soft);
     background-color: transparent;
-    border: 1px solid #aed7fb;
+    border: 1px solid var(--color-accent-soft);
     border-radius: 12px;
     padding: 0.55rem 0.9rem;
     line-height: 1;
@@ -52,10 +52,11 @@ const NewsListStyles = {
     cursor: pointer;
 
     &:hover {
-      color: #d2d4c8;
-      border-color: #d2d4c8;
+      color: var(--color-text-base);
+      border-color: var(--color-text-base);
     }
   `,
 };
 
 export default NewsListStyles;
+

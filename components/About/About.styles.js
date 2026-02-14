@@ -2,10 +2,10 @@ import { css, keyframes } from 'styled-components';
 
 const shadowDance = keyframes`
     0%, 100% {
-        text-shadow: 2px 2px 0 #ff005e, 4px 4px 0 #00d4ff;
+        text-shadow: 2px 2px 0 var(--color-neon-pink), 4px 4px 0 var(--color-neon-cyan);
     }
     50% {
-        text-shadow: -2px -2px 0 #00d4ff, -4px -4px 0 #ff005e;
+        text-shadow: -2px -2px 0 var(--color-neon-cyan), -4px -4px 0 var(--color-neon-pink);
     }
 `
 
@@ -55,23 +55,24 @@ const AboutStyles = {
   profile: ({ background, size }) => css`
     width: min(${size}px, 70vw);
     max-width: 100%;
+    cursor: pointer;
     &:hover {
       border-color: ${background};
     }
   `,
   link: css`
-    color: #aed7fb;
+    color: var(--color-accent-soft);
     text-decoration: underline;
     text-underline-offset: 2px;
   `,
   line: css`
-    color: white;
+    color: var(--color-white);
     width: 100%;
     margin: 0.75rem 0;
   `,
   shadowDanceText: css`
     font-weight: bold;
-    text-shadow: 2px 2px 0 #ff005e, 4px 4px 0 #00d4ff;
+    text-shadow: 2px 2px 0 var(--color-neon-pink), 4px 4px 0 var(--color-neon-cyan);
     animation: ${shadowDance} 2s infinite;
   `,
 };
@@ -79,3 +80,4 @@ const AboutStyles = {
 
 
 export default AboutStyles;
+
