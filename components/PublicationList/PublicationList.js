@@ -12,8 +12,8 @@ const PublicationList = () => {
     return (
         <Wrapper>
             {
-                publications.map((publication) => (
-                    <PublicationCard key={publication.id} publication={publication} />
+                publications.map((publication, index) => (
+                    <PublicationCard key={publication.id}  index={publication.id} publication={publication} />
                 ))
             }
         </Wrapper>

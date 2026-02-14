@@ -34,15 +34,15 @@ const PublicationCardStyles = {
    margin-right: 0.5rem;
    padding: 0.25rem 0.75rem;
    text-align: center;
-   color: #3E5C76;
+   color: #D2D4C8;
    display: inline;
    background-color: transparent;
-   border: 1px solid #3E5C76;
+   border: 1px solid #D2D4C8;
    Border-radius: 12px;
    text-decoration: none;
    &:hover{
-    color: #D2D4C8;
-    border-color: #D2D4C8;
+    color: #3E5C76;
+    border-color: #3E5C76;
    }
   `,
   title: css`
@@ -55,8 +55,10 @@ const PublicationCardStyles = {
     }
   `,
   thumbnail: css`
-    display: flex;
-    padding: 0px 12px;
+    width: 510px;
+    @media screen and (max-width: 768px) {
+      width: 340px;
+    }
   `,
 };
 

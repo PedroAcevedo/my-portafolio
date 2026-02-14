@@ -27,7 +27,6 @@ const About = () => {
             <Row>
                 <Column>
                     <Profile
-                        onMouseEnter={() => setPhotoColor(randonBackground())}
                         background={photoColor}
                         size={profileSize}
                     >
