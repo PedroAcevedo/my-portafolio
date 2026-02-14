@@ -67,7 +67,7 @@ const About = () => {
             >
               Dr. Christos Mousas
             </Link>
-            . I hold both a Master's and a Bachelor's degree in Software Engineering from
+            . I hold both a Master’s and a Bachelor’s degree in Software Engineering from
             Universidad del Norte in Colombia.
           </PText>
           <Social></Social>
