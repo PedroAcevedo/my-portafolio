@@ -1,35 +1,33 @@
-import React, { MutableRefObject, useEffect, useRef, useState } from 'react';
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Header from '../components/Header/Header'
-import Intro from '../components/Intro/Intro'
-import GetInTouch from '../components/GetInTouch/GetInTouch'
-import About from '../components/About/About'
-import ExperienceList from '../components/ExperienceList/ExperienceList'
-import ProjectList from '../components/ProjectList/ProjectList'
-import BackToTopButton from '../components/BackToTopButton/BackToTopButton'
-import PublicationList from '../components/PublicationList/PublicationList'
-import ItemList from '../components/ItemList/ItemList'
-import MainSection from './mainSection';
-import Script from 'next/script';
-import MetaData from '../public/metadata.json';
+import React, { MutableRefObject, useEffect, useRef, useState } from "react";
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Header from "../components/Header/Header";
+import Intro from "../components/Intro/Intro";
+import GetInTouch from "../components/GetInTouch/GetInTouch";
+import About from "../components/About/About";
+import ExperienceList from "../components/ExperienceList/ExperienceList";
+import ProjectList from "../components/ProjectList/ProjectList";
+import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
+import PublicationList from "../components/PublicationList/PublicationList";
+import ItemList from "../components/ItemList/ItemList";
+import MainSection from "./mainSection";
+import Script from "next/script";
+import MetaData from "../public/metadata.json";
 
 const Home: NextPage = () => {
-
   const aboutRef = useRef(null);
   const pubRef = useRef(null);
-  const proRef = useRef(null);
-  const expRef = useRef(null);
+  const teachRef = useRef(null);
+  const serviceRef = useRef(null);
   const contactRef = useRef(null);
 
   const [CurrentRef, SetCurrentRef] = useState(0);
   const [IsScrolling, SetIsScrolling] = useState(false);
 
-
   useEffect(() => {
-    const onscroll = () => SetIsScrolling(true);;
+    const onscroll = () => SetIsScrolling(true);
     window.addEventListener("scroll", onscroll);
     return () => {
       window.removeEventListener("scroll", onscroll);
@@ -46,7 +44,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Header aboutRef={aboutRef} pubRef={pubRef} projectsRef={proRef} experienceRef={expRef} contactRef={contactRef} currentRef={CurrentRef} />
+      <Header aboutRef={aboutRef} teachRef={teachRef} pubRef={pubRef} serviceRef={serviceRef} contactRef={contactRef} currentRef={CurrentRef}/>
 
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-846J8ECS8R"
@@ -65,47 +63,44 @@ const Home: NextPage = () => {
         <Head>
           <title>Pedro Acevedo Portafolio</title>
         </Head>
+
         <MainSection key={0} sectionId={0} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={aboutRef}>
             <About />
 
             <main className={styles.main}>
-              <h5 className={styles.subsectionTitle}>
-                News
-              </h5>
+              <h5 className={styles.subsectionTitle}>News</h5>
 
               <hr className={styles.separationLine}></hr>
 
               <p>Coming soon!!</p>
             </main>
+          </main>
+        </MainSection>
 
-            <main className={styles.main}>
-              <h5 className={styles.subsectionTitle}>
-                Teaching
-              </h5>
+        <MainSection key={2} sectionId={2} onIntersecting={ChangeCurrentRef}>
+          <main className={styles.main} ref={teachRef}>
+            <h5 className={styles.subsectionTitle}>Teaching</h5>
 
-              <hr className={styles.separationLine}></hr>
-              
-                <ItemList items={MetaData.teaching} />
-            </main>
+            <hr className={styles.separationLine}></hr>
 
-            <main className={styles.main}>
-              <h5 className={styles.subsectionTitle}>
-                Services
-              </h5>
+            <ItemList items={MetaData.teaching} />
+          </main>
+        </MainSection>
 
-              <hr className={styles.separationLine}></hr>
+        <MainSection key={3} sectionId={3} onIntersecting={ChangeCurrentRef}>
+          <main className={styles.main} ref={serviceRef}>
+            <h5 className={styles.subsectionTitle}>Services</h5>
 
-                <ItemList items={MetaData.services} />
-            </main>
+            <hr className={styles.separationLine}></hr>
+
+            <ItemList items={MetaData.services} />
           </main>
         </MainSection>
 
         <MainSection key={1} sectionId={1} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={pubRef}>
-            <h5 className={styles.subsectionTitle}>
-              Publications
-            </h5>
+            <h5 className={styles.subsectionTitle}>Publications</h5>
 
             <hr className={styles.separationLine}></hr>
 
@@ -113,7 +108,7 @@ const Home: NextPage = () => {
           </main>
         </MainSection>
 
-        <MainSection key={2} sectionId={2} onIntersecting={ChangeCurrentRef}>
+        {/* <MainSection key={2} sectionId={2} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={expRef}>
 
             <h5 className={styles.subsectionTitle}>
@@ -124,9 +119,9 @@ const Home: NextPage = () => {
 
             <ExperienceList />
           </main>
-        </MainSection>
+        </MainSection> */}
 
-        <MainSection key={3} sectionId={3} onIntersecting={ChangeCurrentRef}>
+        {/* <MainSection key={3} sectionId={3} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={proRef}>
 
             <h5 className={styles.subsectionTitle}>
@@ -138,14 +133,11 @@ const Home: NextPage = () => {
             <ProjectList />
 
           </main>
-        </MainSection>
+        </MainSection> */}
 
         <MainSection key={4} sectionId={4} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={contactRef}>
-
-            <h5 className={styles.subsectionTitle}>
-              Contact
-            </h5>
+            <h5 className={styles.subsectionTitle}>Contact</h5>
 
             <hr className={styles.separationLine}></hr>
 
@@ -163,15 +155,18 @@ const Home: NextPage = () => {
             rel="noopener noreferrer"
           >
             <span className={styles.logo}>
-              <Image src="/github-logo.png" alt="Github Logo" width={32} height={32} />
+              <Image
+                src="/github-logo.png"
+                alt="Github Logo"
+                width={32}
+                height={32}
+              />
             </span>
           </a>
         </footer>
-
-
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
