@@ -1,6 +1,11 @@
 {
   "news": [
     {
+      "id": 8,
+      "date": "Feb 2026",
+      "text": "Serving on the IEEE ISMAR 2026 International Program Committee (IPC)"
+    },
+    {
       "id": 7,
       "date": "Aug 2025",
       "text": "One paper has been accepted to IEEE ISMAR 2025!"
