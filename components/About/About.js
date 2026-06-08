@@ -50,12 +50,11 @@ const About = () => {
         </Column>
         <ColumnText>
           <H1Text>Pedro Acevedo</H1Text>
-          <PText>
-            <ShadowText>New Position</ShadowText> Assistant Professor,{" "}
+          <PText> Assistant Professor,{" "}
             <Link href="https://uncw.edu/" target="_blank" rel="noopener noreferrer">
               University of North Carolina Wilmington (UNCW)
             </Link>
-            , Fall 2025
+            , 2025-Current
           </PText>
           <PText>
             Ph.D in Technology,{" "}
