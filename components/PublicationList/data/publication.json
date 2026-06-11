@@ -1,6 +1,15 @@
 {
   "publication": [
     {
+      "id": 17,
+      "title": "Spiral VR: A Virtual Reality Sports Game for Studying Aim Assistance Under Pressure",
+      "authors": "H. Meekins; E. Barger; P. Acevedo",
+      "description": "Companion Proceedings of the ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games",
+      "pdf": "",
+      "doi": "https://doi.org/10.1145/3807895.3807925",
+      "thumbnail": "/Publications/conf26-I3D-spiral-vr.png"
+    },
+    {
       "id": 16,
       "title": "Event-driven Multi-Agent Concurrent and Collaborative Coordination",
       "authors": "P. Acevedo; F. Zhang; C. Mousas",
