@@ -10,12 +10,14 @@ import BackToTopButton from "../components/BackToTopButton/BackToTopButton";
 import PublicationList from "../components/PublicationList/PublicationList";
 import ItemList from "../components/ItemList/ItemList";
 import NewsList from "../components/NewsList/NewsList";
+import StudentList from "../components/StudentList/StudentList";
 import MainSection from "./mainSection";
 import Script from "next/script";
 import MetaData from "../public/metadata.json";
 
 const Home: NextPage = () => {
   const aboutRef = useRef<HTMLElement | null>(null);
+  const studentsRef = useRef<HTMLElement | null>(null);
   const teachRef = useRef<HTMLElement | null>(null);
   const serviceRef = useRef<HTMLElement | null>(null);
   const pubRef = useRef<HTMLElement | null>(null);
@@ -24,7 +26,7 @@ const Home: NextPage = () => {
   const [CurrentRef, SetCurrentRef] = useState(0);
 
   useEffect(() => {
-    const sectionRefs = [aboutRef, teachRef, serviceRef, pubRef, contactRef];
+    const sectionRefs = [aboutRef, studentsRef, teachRef, serviceRef, pubRef, contactRef];
     const headerOffset = 96;
 
     const updateCurrentSection = () => {
@@ -56,7 +58,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Header aboutRef={aboutRef} teachRef={teachRef} pubRef={pubRef} serviceRef={serviceRef} contactRef={contactRef} currentRef={CurrentRef}/>
+      <Header aboutRef={aboutRef} studentsRef={studentsRef} teachRef={teachRef} pubRef={pubRef} serviceRef={serviceRef} contactRef={contactRef} currentRef={CurrentRef}/>
 
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-846J8ECS8R"
@@ -90,7 +92,7 @@ const Home: NextPage = () => {
           </main>
         </MainSection>
 
-        <MainSection key={1} sectionId={1} onIntersecting={ChangeCurrentRef}>
+        <MainSection key={2} sectionId={2} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={teachRef}>
             <h5 className={styles.subsectionTitle}>Teaching</h5>
 
@@ -100,7 +102,7 @@ const Home: NextPage = () => {
           </main>
         </MainSection>
 
-        <MainSection key={2} sectionId={2} onIntersecting={ChangeCurrentRef}>
+        <MainSection key={3} sectionId={3} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={serviceRef}>
             <h5 className={styles.subsectionTitle}>Services</h5>
 
@@ -110,7 +112,17 @@ const Home: NextPage = () => {
           </main>
         </MainSection>
 
-        <MainSection key={3} sectionId={3} onIntersecting={ChangeCurrentRef}>
+        <MainSection key={1} sectionId={1} onIntersecting={ChangeCurrentRef}>
+          <main className={styles.main} ref={studentsRef}>
+            <h5 className={styles.subsectionTitle}>Students</h5>
+
+            <hr className={styles.separationLine}></hr>
+
+            <StudentList students={MetaData.students} />
+          </main>
+        </MainSection>
+
+        <MainSection key={4} sectionId={4} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={pubRef}>
             <h5 className={styles.subsectionTitle}>Publications</h5>
 
@@ -147,7 +159,7 @@ const Home: NextPage = () => {
           </main>
         </MainSection> */}
 
-        <MainSection key={4} sectionId={4} onIntersecting={ChangeCurrentRef}>
+        <MainSection key={5} sectionId={5} onIntersecting={ChangeCurrentRef}>
           <main className={styles.main} ref={contactRef}>
             <h5 className={styles.subsectionTitle}>Contact</h5>
 

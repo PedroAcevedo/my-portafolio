@@ -12,15 +12,49 @@
     "services": [
         {
             "category": "Journal Reviewing",
-            "name": "International Journal of Human-Computer Interaction (2025), Journal of Metaverse (2025), Computer & Graphics (2023-2024), Computer Animation and Virtual Worlds (2024), IEEE Access (2022)"
+            "name": "ACM Transactions on Interactive Intelligent Systems (TiiS, 2026), Virtual Reality (2026), Computer Applications in Engineering Education (2026), Computers & Education: X Reality (2026, 2025) International Journal of Human-Computer Interaction (2025-2026), Journal of Metaverse (2025), Computer & Graphics (2023-2026), Computer Animation and Virtual Worlds (2026, 2024), IEEE Access (2026, 2025, 2022)"
         },
         {
             "category": "Conference Reviewing",
-            "name": "ISMAR (2025), VRST (2025), CASA (2025), FDG (2024-2025), FIE (2024-2025), IMX WIP (2024), IEEE VR Workshop (2023), CHI PLAY WIP (2023)"
+            "name": "ISMAR (2025, 2026), IUI (2026), CHI (2026), VRST (2025), CASA (2025), FDG (2024-2026), FIE (2024-2026), IMX WIP (2024-2026), IEEE VR Workshop (2023), CHI PLAY WIP (2023)"
         },
         {
             "category": "Technical Committee",
-            "name": "IEEE International Symposium on Emerging Metaverse (ISEMV) (2025)"
+            "name": "IEEE ISMAR IPC (2026), IEEE International Symposium on Emerging Metaverse (ISEMV) (2025)"
+        }
+    ],
+    "students": [
+        {
+            "id": "student-1",
+            "name": "Hayes Meekins",
+            "photo": "/students/hayes.jpg",
+            "major": "Computer Science",
+            "minor": "",
+            "research": "VR Games"
+        },
+        {
+            "id": "student-2",
+            "name": "Kian Miley",
+            "photo": "",
+            "major": "M.S. Computer Science",
+            "minor": "",
+            "research": "360 VR; HCI"
+        },
+        {
+            "id": "student-3",
+            "name": "Anna Knowles",
+            "photo": "",
+            "major": "Computer Science",
+            "minor": "Digital Arts",
+            "research": "MR, Web, CV"
+        },
+        {
+            "id": "student-4",
+            "name": "David C. Agwu",
+            "photo": "",
+            "major": "Computer Science",
+            "minor": "Cyber Security",
+            "research": "VR Film"
         }
     ]
 }

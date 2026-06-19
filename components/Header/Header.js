@@ -14,7 +14,7 @@ const MobileMenu = styled.ul`${HeaderStyles.MobileMenu}`;
 const MobileOption = styled.li`${HeaderStyles.MobileOption}`;
 
 
-const Header = ({ aboutRef, teachRef, pubRef, serviceRef, contactRef, currentRef}) => {
+const Header = ({ aboutRef, studentsRef, teachRef, pubRef, serviceRef, contactRef, currentRef}) => {
 
     const ScrollToSection = (ref) => {
         if (isOpen) {
@@ -41,10 +41,11 @@ const Header = ({ aboutRef, teachRef, pubRef, serviceRef, contactRef, currentRef
             <Bars onClick={() => handleClick()} isOpen={isOpen} />
             <Navigation>
                 <Option onClick={() => ScrollToSection(aboutRef)} isCurrent={isCurrent(0)}> About </Option>
-                <Option onClick={() => ScrollToSection(teachRef)} isCurrent={isCurrent(1)}> Teaching </Option>
-                <Option onClick={() => ScrollToSection(serviceRef)} isCurrent={isCurrent(2)}> Services </Option>
-                <Option onClick={() => ScrollToSection(pubRef)} isCurrent={isCurrent(3)}> Publications </Option>
-                <Option onClick={() => ScrollToSection(contactRef)} isCurrent={isCurrent(4)}> Contact </Option>
+                <Option onClick={() => ScrollToSection(studentsRef)} isCurrent={isCurrent(1)}> Students </Option>
+                <Option onClick={() => ScrollToSection(teachRef)} isCurrent={isCurrent(2)}> Teaching </Option>
+                <Option onClick={() => ScrollToSection(serviceRef)} isCurrent={isCurrent(3)}> Services </Option>
+                <Option onClick={() => ScrollToSection(pubRef)} isCurrent={isCurrent(4)}> Publications </Option>
+                <Option onClick={() => ScrollToSection(contactRef)} isCurrent={isCurrent(5)}> Contact </Option>
                 <Option className="nav-li">
                     <Button target="_blank" href="https://drive.google.com/file/d/1Ml695q_jysrDsan-RKkAJ4c4pXx_X-2O/view?usp=sharing" rel="noreferrer">
                         Resume
@@ -53,10 +54,11 @@ const Header = ({ aboutRef, teachRef, pubRef, serviceRef, contactRef, currentRef
             </Navigation>
             <MobileMenu isOpen={isOpen}>
                 <MobileOption onClick={() => ScrollToSection(aboutRef)} isCurrent={isCurrent(0)}>About</MobileOption>
-                <MobileOption onClick={() => ScrollToSection(teachRef)} isCurrent={isCurrent(1)}>Teaching</MobileOption>
-                <MobileOption onClick={() => ScrollToSection(serviceRef)} isCurrent={isCurrent(2)}>Services</MobileOption>
-                <MobileOption onClick={() => ScrollToSection(pubRef)} isCurrent={isCurrent(3)}>Publications</MobileOption>
-                <MobileOption onClick={() => ScrollToSection(contactRef)} isCurrent={isCurrent(4)}>Contact</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(studentsRef)} isCurrent={isCurrent(1)}>Students</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(teachRef)} isCurrent={isCurrent(2)}>Teaching</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(serviceRef)} isCurrent={isCurrent(3)}>Services</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(pubRef)} isCurrent={isCurrent(4)}>Publications</MobileOption>
+                <MobileOption onClick={() => ScrollToSection(contactRef)} isCurrent={isCurrent(5)}>Contact</MobileOption>
                 <MobileOption>
                     <Button
                         target="_blank"
