@@ -43,9 +43,9 @@
         {
             "id": "student-3",
             "name": "Anna Knowles",
-            "photo": "",
+            "photo": "/students/anna.jpg",
             "major": "Computer Science",
-            "minor": "Digital Arts",
+            "minor": "Digital Arts, Cybersecurity",
             "research": "MR, Web, CV"
         },
         {
@@ -53,7 +53,7 @@
             "name": "David C. Agwu",
             "photo": "",
             "major": "Computer Science",
-            "minor": "Cyber Security",
+            "minor": "Cybersecurity",
             "research": "VR Film"
         }
     ]
