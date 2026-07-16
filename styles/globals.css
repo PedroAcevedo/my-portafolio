@@ -21,20 +21,20 @@ body {
   --table-row-gap: 0.4rem;
   --table-row-stack-gap: 0.2rem;
   /* Academic Dark (soft, not pure black) */
-  --color-bg-primary: #161a1d;
-  --color-text-base: #d6d9dd;
-  --color-text-strong: #edf0f2;
-  --color-text-title: #f5f7f8;
-  --color-accent: #3f5f7a;
-  --color-accent-soft: #9ec2df;
-  --color-border-muted: #3a434a;
-  --color-surface-light: #20262b;
-  --color-link: #7fb0da;
-  --color-neon-pink: #c46a8a;
-  --color-neon-cyan: #5ca6b6;
+  --color-bg-primary: #131b22;
+  --color-text-base: #d9dde2;
+  --color-text-strong: #eef2f5;
+  --color-text-title: #f8fafb;
+  --color-accent: #006fba;
+  --color-accent-soft: #78bde6;
+  --color-border-muted: #33424e;
+  --color-surface-light: #1b2630;
+  --color-link: #4aa3df;
+  --color-neon-pink: #bd6c8f;
+  --color-neon-cyan: #5aa8c5;
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-accent-rgb: 62, 92, 118;
+  --color-accent-rgb: 0, 111, 186;
   --color-black-rgb: 0, 0, 0;
 }
 

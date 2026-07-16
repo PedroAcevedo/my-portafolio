@@ -1,6 +1,16 @@
 {
   "news": [
     {
+      "id": 10,
+      "date": "Jul 2026",
+      "text": "Two papers have been accepted to IEEE ISMAR 2026! both of them will be published in the IEEE TVCG journal 🎉!!"
+    },
+    {
+      "id": 9,
+      "date": "Jul 2026",
+      "text": "Serving on the ACM IUI 2027 International Program Committee"
+    },
+    {
       "id": 8,
       "date": "Feb 2026",
       "text": "Serving on the IEEE ISMAR 2026 International Program Committee (IPC)"

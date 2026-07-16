@@ -1,9 +1,29 @@
 {
   "publication": [
     {
+      "id": 19,
+      "title": "Enhancing Electromagnetism Learning in Virtual Reality with an LLM-Prompted Pedagogical Agent Explaining Interactive Simulations",
+      "authors": "X. Li, P. Acevedo, C. Mousas",
+      "description": "IEEE Transactions on Visualization and Computer Graphics (Proc. of IEEE ISMAR 2026), TBA, pp. TBA, 2026",
+      "pdf": "",
+      "doi": "",
+      "video": "",
+      "thumbnail": "/Publications/conf26-IEEETVCG-llm-explanations-charged-particles.png"
+    },
+    {
+      "id": 18,
+      "title": "Transforming Lecture Videos into LLM-Enhanced Immersive Learning Experiences",
+      "authors": "A. Jimenez, P. Acevedo, M. Choi, D. Cui, C. Mousas",
+      "description": "IEEE Transactions on Visualization and Computer Graphics (Proc. of IEEE ISMAR 2026), TBA, pp. TBA, 2026",
+      "pdf": "",
+      "doi": "",
+      "video": "",
+      "thumbnail": "/Publications/conf26-IEEETVCG-video-to-vr-gpt.jpg"
+    },
+    {
       "id": 17,
       "title": "Spiral VR: A Virtual Reality Sports Game for Studying Aim Assistance Under Pressure",
-      "authors": "H. Meekins; E. Barger; P. Acevedo",
+      "authors": "H. Meekins, E. Barger, P. Acevedo",
       "description": "Companion Proceedings of the ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games, 2026",
       "pdf": "PDF/conf26-I3D-demo-spiral-vr.pdf",
       "doi": "https://doi.org/10.1145/3807895.3807925",
@@ -13,7 +33,7 @@
     {
       "id": 16,
       "title": "Event-driven Multi-Agent Concurrent and Collaborative Coordination",
-      "authors": "P. Acevedo; F. Zhang; C. Mousas",
+      "authors": "P. Acevedo, F. Zhang, C. Mousas",
       "description": "ACM SIGGRAPH Conference on Virtual Reality Continuum and Its Applications, pp. 1-10, 2026",
       "pdf": "PDF/conf25-ACMSIGGRAPHVRCAI-multi-agent-coordination.pdf",
       "doi": "https://doi.org/10.1145/3779232.3779273",
@@ -23,7 +43,7 @@
     {
       "id": 15,
       "title": "Enhancing Joy with AR Glasses: Intergenerational Engagement for Older Adults and Youth",
-      "authors": "C. Park; P. Acevedo",
+      "authors": "C. Park, P. Acevedo",
       "description": "IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), Daejeon, Korea, pp. 131-141, 2025",
       "pdf": "PDF/conf25-ISMAR-poster-enhancing-joy-ar.pdf",
       "doi": "https://doi.org/10.1109/ISMAR-Adjunct68609.2025.00304",
@@ -33,7 +53,7 @@
     {
       "id": 14,
       "title": "Virtual Roomie: Immersive Layout Co-Design With a Virtual Agent",
-      "authors": "A. L. Jimenez; P. Acevedo; C. Mousas",
+      "authors": "A. L. Jimenez, P. Acevedo, C. Mousas",
       "description": "IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Daejeon, Korea, pp. 131-141, 2025",
       "pdf": "PDF/conf25-ISMAR-vr-roomie.pdf",
       "doi": "https://doi.org/10.1109/ISMAR67309.2025.00026",
